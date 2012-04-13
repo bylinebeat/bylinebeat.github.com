@@ -1,0 +1,19 @@
+				
+#BBbar {
+		z-index: 2;
+		border-top-color: black;
+		border-top-width: 2px;
+		border-radius: 28px;
+			border-bottom-color: black;
+			border-bottom-style: solid;
+			border-bottom-width: 6px;
+			margin-left: 15px;
+			text-align: center;
+			width: 700px;
+			margin-top: 0px;
+			background-color: white;
+			position: fixed;
+			border-top-style: solid;
+		}
+		
+#bbPages { font-family: Futura, Helvetica, Arial, sans-serif; text-align: center; clear: both; position: fixed; font-size: 16px; margin-left: 40px; margin-top: 65px; }

@@ -1,0 +1,3 @@
+ruby -rubygems -e 'require "jekyll/migrators/tumblr"; Jekyll::Tumblr.process("http://bylinebeat.com", format="md")'
+
+ruby -rubygems -e 'require "jekyll/migrators/posterous"; Jekyll::Posterous.process("kg@kevingailey.com", "#empire")'

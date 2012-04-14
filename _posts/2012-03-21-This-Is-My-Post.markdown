@@ -17,10 +17,10 @@ category: more
 	  <p><a href="http://www.instapaper.com/hello2?url={{ page.url }}&title={{ page.title }}" title="Save {{ page.title }} to Instapaper" target="_blank">Save this blog post</a> to read later.</p>
     </div>
 	<div class="span9 columns">
-	  <h2>Info</h2>
-	  <p>This is a template for other posts.</p>  
+	  <h2>Hello World</h2>
+	  <p>This is my first post. More to come.</p>  
 	  <hr>
-	  <h2>Another Section Title</h2>
+	  <h2>And Other Updates!</h2>
 	  <p>.</p>	  
 	  <hr>
 	</div>

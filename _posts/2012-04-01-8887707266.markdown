@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <!-- BEGIN TUMBLR XML
+
+        <?xml version="1.0" encoding="UTF-8"?>
+        <post id="8887707266" url="http://bylinebeat.com/post/8887707266" url-with-slug="http://bylinebeat.com/post/8887707266" type="regular" date-gmt="2011-08-14 01:29:32 GMT" date="Sat, 13 Aug 2011 21:29:32" unix-timestamp="1313285372" format="html" reblog-key="rTBl0gJF" slug="london-style-riots-a-scary-possibility-in-u-s"><regular-title>London-style riots a scary possibility in U.S.</regular-title><regular-body>&lt;p&gt;(AP) &lt;br/&gt;&lt;br/&gt;A black man killed by police. Mobs of looters. Cities charred and shaken. The riots in London mirror some of the worst uprisings in modern U.S. history.&lt;br/&gt;&lt;br/&gt;And there are more parallels: Stubborn poverty and high unemployment, services slashed due to recessionary budget cuts, a breakdown of social values, social media that bring people together for good or bad at the speed of the Internet. And finally, there are a handful of actual attacks, isolated and hard to explain, by bands of youths in U.S. cities.&lt;br/&gt;&lt;br/&gt;As Americans look across the Atlantic, a natural question arises: Could the flames and violence that erupted in Britain scar this country, too?&lt;/p&gt;</regular-body></post>
+
+        END TUMBLR XML -->
+    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    	<meta name="generator" content="Tumblr Backup 0.3" />
+    	<meta name="backup-date" content="Fri, 13 Apr 12 19:53:14 -0400" />
+    	<link rel="stylesheet" href="../style.css"/>
+    	<link rel="icon" href="../avatar.png"/>
+    </head>
+    <body class="regular_body">
+                
+        <div class="post_meta">
+            <span class="timestamp">August 13, 2011, 9:29 pm</span>
+            
+        </div>
+        
+        <h1>London-style riots a scary possibility in U.S.</h1><div><p>(AP) <br/><br/>A black man killed by police. Mobs of looters. Cities charred and shaken. The riots in London mirror some of the worst uprisings in modern U.S. history.<br/><br/>And there are more parallels: Stubborn poverty and high unemployment, services slashed due to recessionary budget cuts, a breakdown of social values, social media that bring people together for good or bad at the speed of the Internet. And finally, there are a handful of actual attacks, isolated and hard to explain, by bands of youths in U.S. cities.<br/><br/>As Americans look across the Atlantic, a natural question arises: Could the flames and violence that erupted in Britain scar this country, too?</p></div>    </body>
+</html>

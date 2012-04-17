@@ -24,7 +24,7 @@ text-align: center; margin-left: 25px; font-size: 16px; text-decoration: none; t
 			<h2>Latest Headlines</h2>
 			  {% for post in site.posts %}	
 			  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . </small> <br /> {{ post.summary }}</p>			
+			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . </small> <br /> {{ post.content|strip_html|truncate: 300 }} &nbsp; <a class="readMore" href="{{ post.url }}">read|more</a></p>			
 			  {% endfor %}	
 		</div>		
 		<div class="span4 columns">		  

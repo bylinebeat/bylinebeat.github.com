@@ -1,0 +1,5 @@
+#BBpages { text-align: center; clear: both; position: fixed; font-size: 16px; margin-left: 40px; margin-top: 65px; }
+#BBpages ul { margin: 0; padding: 0; list-style: none;}
+#BBpages ul li { display: block; position: relative; float: left; }
+#BBpages li ul { display: block;}
+#BBpages ul li a { border-top-style: none; display: block;  text-decoration: none; color: black; white-space: nowrap;}

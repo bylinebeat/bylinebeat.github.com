@@ -2,6 +2,7 @@
 layout: layout
 title: Test 12345678 QWERTY
 category: more
+tags: tech, mac, compton
 ---
 
 

@@ -13,8 +13,8 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 			  <hr width="75%" />	
 			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			  <p><br /> {{ post.content|strip_html|truncate: 420 }} &nbsp; <a href="{{ post.url }}">read|more →</a>
-			  <br /><div id="bbMore">
-			 tagged: {{ post.category }} </div></p>			
+			  <br /><div id="BBmore"> <a href="#">#</a> | <a href="#">+</a> | <a href="#">☆</a> | <a href="#">↩</a>
+			  </div></p>			
 			  {% endfor %}	
 		</div>		
 		

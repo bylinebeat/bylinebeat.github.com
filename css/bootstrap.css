@@ -3483,3 +3483,7 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
+#BBmore {
+	color: white;
+	background-color: black;
+}

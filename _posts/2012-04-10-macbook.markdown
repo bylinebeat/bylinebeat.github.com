@@ -1,10 +1,12 @@
 ---
-layout: post
+layout: layout
 title: Test 12345678 QWERTY
 category: more
 image: /img/macbook.jpg
 tags: tech, mac, compton
 ---
+<div class="span1 columns"><br /></div> 
+
 <div class="span7 columns">
 <img src="{{ page.image }}" />
 ## Testing Images

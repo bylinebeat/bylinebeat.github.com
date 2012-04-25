@@ -268,7 +268,7 @@ a:hover {
 }
 .container:before, .container:after {
   display: table;
-  content: "";
+  content: { padding-left: 25px;}
 }
 .container:after {
   clear: both;

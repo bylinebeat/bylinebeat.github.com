@@ -2198,7 +2198,7 @@ button.btn.small, input[type="submit"].btn.small {
   text-transform: uppercase;
 }
 .nav li + .nav-header {
-  margin-top: 9px;
+  margin-top: 15px;
 }
 .nav-list {
   padding-left: 14px;
@@ -2206,8 +2206,8 @@ button.btn.small, input[type="submit"].btn.small {
   margin-bottom: 0;
 }
 .nav-list > li > a, .nav-list .nav-header {
-  margin-left: -15px;
-  margin-right: -15px;
+  margin-left: 5px;
+  margin-right: 5px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 .nav-list > li > a {
@@ -2235,7 +2235,7 @@ button.btn.small, input[type="submit"].btn.small {
   clear: both;
 }
 .nav-tabs > li, .nav-pills > li {
-  float: left;
+  
 }
 .nav-tabs > li > a, .nav-pills > li > a {
   padding-right: 12px;

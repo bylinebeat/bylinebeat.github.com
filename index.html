@@ -26,9 +26,9 @@ text-align: center; margin-left: 25px; font-size: 16px; text-decoration: none; t
 			  <small>{{ post.date | date: "%H : %M • %m %d • %Y" }}</small>
 			  <hr width="85%" />	
 			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			  <p><br /> {{ post.content|strip_html|truncate: 140 }} &nbsp; 
+			  <p><br /> {{ post.content|strip_html|truncate: 140 }} &nbsp; <a href="{{ post.url }}">read|more→</a>
 			  <br /><div id="bbMore">
-			 #{{ post.category }} <a href="{{ post.url }}">read|more⏎</a></div></p>			
+			 tagged: {{ post.category }} </div></p>			
 			  {% endfor %}	
 		</div>		
 		<!-- div class="span4 columns">		  

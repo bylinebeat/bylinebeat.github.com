@@ -262,7 +262,7 @@ a:hover {
 }
 .container {
   width: 960px;
-  margin-left: 20px;
+  padding-left: 20px;
   margin-right: 20px;
   *zoom: 1;
 }

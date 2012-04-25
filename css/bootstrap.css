@@ -124,6 +124,7 @@ a:hover {
 }
 .row {
   margin-left: -20px;
+text-align: justify;
   *zoom: 1;
 }
 .row:before, .row:after {

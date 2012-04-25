@@ -9,7 +9,7 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 		<div class="span7 columns">
 			  {% for post in site.posts %}
 			  <hr width="75%" />
-			  <small style="text-align: center;" ><a href="{{ post.url }}">{{ post.date | date: "%H : %M • %m %d • %Y" }}</a></small>
+			  <small><a style="text-align: center;"  href="{{ post.url }}">{{ post.date | date: "%H : %M • %m %d • %Y" }}</a></small>
 			  <hr width="75%" />	
 			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			  <p><br /> {{ post.content|strip_html|truncate: 420 }} &nbsp; <a href="{{ post.url }}">read|more →</a>

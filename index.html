@@ -9,8 +9,9 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 		<div class="span7 columns">
 			  {% for post in site.posts %}
 			  <hr width="75%" />
-			  <small><a style="margin-left: 25%;"  href="{{ post.url }}">{{ post.date | date: "%H:%M • %A %B %d • %Y" }}</a></small>
-			  <hr width="75%" />	
+			  <small><a style="margin-left: 20%;"  href="{{ post.url }}">{{ post.date | date: "%H:%M • %A %B %d • %Y" }}</a></small>
+			  <hr width="75%" /><br />
+			<img src="{{ page.image }}" />	
 			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			  <p><br /> {{ post.content|strip_html|truncate: 420 }} &nbsp; <a href="{{ post.url }}">read|more →</a>
 			  <br /><div id="bbMore">

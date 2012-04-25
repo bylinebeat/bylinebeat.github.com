@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: post
 title: Test 12345678 QWERTY
 category: more
 image: /img/macbook.jpg

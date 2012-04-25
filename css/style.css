@@ -7,7 +7,7 @@ body {
   margin-top: 15px;
   font-size: 1.5em;
   line-height:1.3em;
-  font-family: 'Caudex', serif;
+  font-family: Futura, Helvetica, Arial, sans-serif;
   font-color: #2B2E2E;
   -webkit-font-smoothing: antialiased;
 }
@@ -18,24 +18,24 @@ a {
 }
 
 a:-webkit-any-link {
-  color: #2B2E2E;
+  color: #609bff;
   text-decoration: underline;
   cursor: auto;
 }
 
 a:link {
-  font-color:#2B2E2E;
+  font-color:#609bff;
   text-decoration:none;
 }
 
 
 a:visited {
-  font-color:#2B2E2E;
+  font-color:#b0a9ac;
   text-decoration:underline;
 }
 
 a:hover {
-  font-color:#2B2E2E;
+  font-color:#b0a9ac;
   text-decoration:underline;
 }
 
@@ -82,12 +82,12 @@ p.section {
 
 #header {
   position: fixed;
-  margin-left:15px;
+  margin-left:5px;
 
 }
 
 .content {
-  margin-left:180px;
+  margin-left:80px;
 }
 
 .project {

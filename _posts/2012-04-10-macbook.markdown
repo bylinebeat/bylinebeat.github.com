@@ -5,7 +5,7 @@ category: more
 image: /img/macbook.jpg
 tags: tech, mac, compton
 ---
-<div class="span7 columns">
+
 <img src="{{ page.image }}" />
 ## Testing Images
 
@@ -42,4 +42,3 @@ While one would expect Game to have a few qualms with Ne-Yo using the same album
 This isn't the first time Game and Ne-Yo have crossed paths. The duo collaborated on the songs "Camera Phone" and "Gentleman's Affair," both featured on the Compton's 2008 album LAX.
 
 ---------------
-</div>

@@ -157,6 +157,7 @@ a:hover {
 }
 .span7 {
   width: 500px;
+  padding-left: 25px;
 }
 .span8 {
   width: 620px;
@@ -1140,7 +1141,7 @@ table .span6 {
 table .span7 {
   float: none;
   width: 500px;
-  margin-left: 25;
+  margin-left: 0;
 }
 table .span8 {
   float: none;

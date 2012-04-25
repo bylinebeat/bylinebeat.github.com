@@ -3486,4 +3486,7 @@ a.thumbnail:hover {
 #BBmore {
 	color: white;
 	background-color: black;
+	border-radius: 5px;
+	width: 250;
+	text-align: center;
 }

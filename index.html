@@ -23,7 +23,7 @@ text-align: center; margin-left: 5px; position: fixed; font-size: 16px; text-dec
 		<div class="span7 columns">
 			  {% for post in site.posts %}
 			  <hr width="75%" />
-			  <small>{{ post.date | date: "%H : %M • %m %d • %Y" }}</small>
+			  <small><a href="{{ post.url }}">{{ post.date | date: "%H : %M • %m %d • %Y" }}</a></small>
 			  <hr width="75%" />	
 			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			  <p><br /> {{ post.content|strip_html|truncate: 140 }} &nbsp; <a href="{{ post.url }}">read|more →</a>

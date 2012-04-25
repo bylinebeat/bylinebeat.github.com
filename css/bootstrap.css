@@ -2189,7 +2189,7 @@ button.btn.small, input[type="submit"].btn.small {
 }
 .nav .nav-header {
   display: block;
-  padding: 3px 15px;
+  padding: 3px 5px;
   font-size: 11px;
   font-weight: bold;
   line-height: 18px;
@@ -2202,7 +2202,7 @@ button.btn.small, input[type="submit"].btn.small {
 }
 .nav-list {
   padding-left: 14px;
-  padding-right: 14px;
+  padding-right: 4px;
   margin-bottom: 0;
 }
 .nav-list > li > a, .nav-list .nav-header {
@@ -2211,7 +2211,7 @@ button.btn.small, input[type="submit"].btn.small {
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 .nav-list > li > a {
-  padding: 3px 15px;
+  padding: 3px 5px;
 }
 .nav-list .active > a, .nav-list .active > a:hover {
   color: #ffffff;

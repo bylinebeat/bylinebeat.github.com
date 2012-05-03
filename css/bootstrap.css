@@ -186,8 +186,8 @@ text-align: justify;
   width: 460px;
 }
 .span7 {
-  width: 700px;
-  padding-left: 25px;
+  width: 80%;
+  padding-left: 10%;
 }
 .span8 {
   width: 620px;
@@ -3515,7 +3515,7 @@ a.thumbnail:hover {
 #BBmore {
 	color: white;
 	background-color: black;
-	border-radius: 5px;
-	width: 250;
+	border-radius: 15px;
+	width: 70%;
 	text-align: center;
 }

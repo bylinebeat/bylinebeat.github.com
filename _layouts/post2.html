@@ -42,7 +42,7 @@
 					border-bottom-color: black;
 					border-bottom-style: solid;
 					border-bottom-width: 6px;
-					margin-left: 15px;
+					margin-left: 5%;
 					text-align: center;
 					width: 90%;
 					margin-top: 0px;
@@ -65,7 +65,7 @@
 						<li><a href="/tagged/weeddude">@weeddude</a></li><br />
 						<li><a href="/about/">About Us</a></li>
 						</ul>
-					  </li></ul><a href="http://bylinebeat.github.com/" class="title" title="Home"><img src="http://s3.amazonaws.com/data.tumblr.com/tumblr_lszgt0ImJH1qmnwbqo1_1280.png" height="25" width="350"/></a> <img src="/img/settings.png" height="48" style="float: right; margin-top: 20px; margin-right: 25px;" /><br />
+					  </li></ul><a href="http://bb3.bylinebeat.com/" class="title" title="Home"><img src="http://s3.amazonaws.com/data.tumblr.com/tumblr_lszgt0ImJH1qmnwbqo1_1280.png" height="25" width="350"/></a> <img src="/img/settings.png" height="48" style="float: right; margin-top: 20px; margin-right: 25px;" /><br />
 			</div>
           </div>
         </div>
@@ -98,10 +98,10 @@
 	
 	{% if page.twitter %}
 <div class="bbAuthorTwitter">
-<div id="BBmore"> <div class="bbShareBar"><a href="#">#</a>Tags</div> | <div class="bbShareBar"><a href="#">+</a>Share</div> | <div class="bbShareBar"><a href="#">☆</a>Favorite</div> | <div class="bbShareBar"><a href="#">↩</a>Permalink</div>
-			  </div>
-<div id="TwitterFooter"><img src="{{page.profilepic}}" height="20px" width="20px"> Follow {{page.author}} on Twitter at <a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></div>
-</div>
+<div id="BBmore"> 
+<div class="bbShareBar"><img src="/img/star.png" width="20px" height="20px" /><img src="/img/comment.png" width="20px" height="20px" /><img src="/img/retweet.png" width="20px" height="20px" /><img src="/img/save.png" width="20px" height="20px" /></div>
+<div id="TwitterFooter"><img src="{{page.profilepic}}" height="15px" width="15px"> Follow {{page.author}} on Twitter at <a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></div>
+</div></div>
 {% endif %}
 	</div>
 

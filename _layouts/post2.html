@@ -63,6 +63,11 @@
 	<div class="span7 columns">
 	<h2>{{page.title}}</h2>
 	
+	{% if page.titleimage %}
+	<img src="{{page.titleimage}}" id="TitleImage" />
+	
+	{% endif %}
+	
 	{% if page.author %}
 <div id="AttributeLine" class="bbAuthor">
 
@@ -74,6 +79,7 @@
 </div>
 {% endif %}
 	
+	(<a href="{{page.source}}">{{page.source}}</a>)
 	
 	{{ content }}
 	{% if page.note %}

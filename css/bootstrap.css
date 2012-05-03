@@ -3534,3 +3534,7 @@ a.thumbnail:hover {
 	width: 70%;
 	text-align: center;
 }
+#TitleImage {
+	width: 500px;
+	text-align: center;
+}

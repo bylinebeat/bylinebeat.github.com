@@ -10,7 +10,7 @@ authortitle: Contributing Editor
 initials: ac
 credit: May Day; Union Square (Alex Cacioppo/Byline Beat)
 source: on.bylinebeat.com
-titleimage: http://dl.dropbox.com/u/42301026/Alex_Cacioppo_MayDay.jpg
+image: http://dl.dropbox.com/u/42301026/Alex_Cacioppo_MayDay.jpg
 ---
 
 

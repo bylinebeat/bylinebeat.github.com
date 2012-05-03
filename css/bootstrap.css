@@ -184,7 +184,7 @@ text-align: justify;
   width: 460px;
 }
 .span7 {
-  width: 500px;
+  width: 700px;
   padding-left: 25px;
 }
 .span8 {
@@ -455,7 +455,7 @@ abbr {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 18px;
-  border-left: 5px solid #eeeeee;
+  border-left: 5px solid #609bff;
 }
 blockquote p {
   margin-bottom: 0;
@@ -476,7 +476,7 @@ blockquote.pull-right {
   padding-left: 0;
   padding-right: 15px;
   border-left: 0;
-  border-right: 5px solid #eeeeee;
+  border-right: 5px solid #609bff;
 }
 blockquote.pull-right p, blockquote.pull-right small {
   text-align: right;
@@ -770,7 +770,7 @@ input.span6, textarea.span6, .uneditable-input.span6 {
   width: 450px;
 }
 input.span7, textarea.span7, .uneditable-input.span7 {
-  width: 500px;
+  width: 700px;
 }
 input.span8, textarea.span8, .uneditable-input.span8 {
   width: 610px;

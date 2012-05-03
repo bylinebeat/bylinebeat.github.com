@@ -76,8 +76,8 @@
 	<div class="span7 columns">
 	<h2>{{page.title}}</h2>
 	
-	{% if page.image %}
-	<img src="{{page.image}}" width="500px" />
+	{% if page.titleimage %}
+	<img src="{{page.titleimage}}" width="500px" />
 	
 	{% endif %}
 	
@@ -117,7 +117,7 @@
 
 <div id="BBmore"> 
 <div class="bbShareBar"><img src="/img/star.png" width="20px" height="20px" /><img src="/img/comment.png" width="20px" height="20px" /><img src="/img/retweet.png" width="20px" height="20px" /><img src="/img/save.png" width="20px" height="20px" /></div>
-<div class="bbAuthorTwitter"><div id="TwitterFooter"><img src="{{page.profilepic}}" height="15px" width="15px"> Follow {{page.author}} on Twitter at <a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></div>
+<div class="bbAuthorTwitter"><div id="TwitterFooter"><img src="{{page.profilepic}}" height="15px" width="15px"><h4> Follow {{page.author}} on Twitter at <a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></h4></div>
 </div></div>
 {% endif %}
 	</div>

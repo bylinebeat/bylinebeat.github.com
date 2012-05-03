@@ -1,16 +1,14 @@
 ---
 layout: post2
-title: May Day: Occupy Protesters Take to Streets and Parks
-category: ows
-tags: ows
-twitter: lexiconstable
+title: Welcome to byline | beat 3.0 aka Project Jekyll
+category: more
+tags: tech
+twitter: kevingailey
 profilepic: /img/kg.jpg
-author: Alex Cacioppo
-authortitle: Contributing Editor
-initials: ac
-credit: May Day; Union Square (Alex Cacioppo/Byline Beat)
-source: on.bylinebeat.com
-titleimage: http://dl.dropbox.com/u/42301026/Alex_Cacioppo_MayDay.jpg
+author: KG
+authortitle: Creative Director
+initials: kg
+note: KG is Creative Director & Coconspirator in all things byline beat
 ---
 
 

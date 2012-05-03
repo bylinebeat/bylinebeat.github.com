@@ -34,21 +34,7 @@
   <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container"><br />
-          	<div id="BBbar" style="
-				z-index: 8;
-				border-top-color: black;
-				border-top-width: 2px;
-				border-radius: 28px;
-					border-bottom-color: black;
-					border-bottom-style: solid;
-					border-bottom-width: 6px;
-					margin-left: 5%;
-					text-align: center;
-					width: 90%;
-					margin-top: 0px;
-					background-color: white;
-					position: fixed;
-					border-top-style: solid;">
+          	<div id="BBbar">
 					<ul class="nav nav-pills">
 					  <li class="dropdown" id="menu1">
 					    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1" style="margin-left: 20px; margin-top: 15px;">
@@ -97,10 +83,10 @@
 {% endif %}	
 	
 	{% if page.twitter %}
-<div class="bbAuthorTwitter">
+
 <div id="BBmore"> 
 <div class="bbShareBar"><img src="/img/star.png" width="20px" height="20px" /><img src="/img/comment.png" width="20px" height="20px" /><img src="/img/retweet.png" width="20px" height="20px" /><img src="/img/save.png" width="20px" height="20px" /></div>
-<div id="TwitterFooter"><img src="{{page.profilepic}}" height="15px" width="15px"> Follow {{page.author}} on Twitter at <a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></div>
+<div class="bbAuthorTwitter"><div id="TwitterFooter"><img src="{{page.profilepic}}" height="15px" width="15px"> Follow {{page.author}} on Twitter at <a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></div>
 </div></div>
 {% endif %}
 	</div>

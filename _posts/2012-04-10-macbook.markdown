@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post2
 title: Test 12345678 QWERTY
 category: more
 tags: tech, mac, compton

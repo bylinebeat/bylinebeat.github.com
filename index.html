@@ -24,13 +24,13 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 {% endif %}
 			  <p><br /> {{ post.content|truncate: 480 }} &nbsp; → <a href="{{ post.url }}">read|more ↩</a>
 			  <br /><div id="BBmore"> 
-			  <a href="http://twitter.com/home?status={{post.title}}+http://bylinebeat.com{{post.url}}+by+@{{post.twitter}}"><img src="/img/t.png" width="20px" height="20px" /></a> | 
-			 <a href="https://www.facebook.com/sharer.php?u=http://bylinebeat.com{{post.url}}&t={{post.title}}"><img src="/img/fb.png" width="20px" height="20px" /></a> | 
-			 <a href="http://twitter.com/home?status=@{{post.twitter}}"><img src="/img/email.png" width="20px" height="20px" /></a> |  
-			 <a href="http://www.instapaper.com/hello2?url=http://bb3.bylinebeat.com{{post.url}}&title={{post.title}}"><img src="/img/i.png" width="20px" height="20px" /></a> | 
-			 <a href="http://bylinebeat.com/rss"><img src="/img/rss.png" width="20px" height="20px" /></a> | 
-			 <a href="https://plus.google.com/share?url=http://bylinebeat.com{{post.url}}"><img src="/img/plus.png" width="20px" height="20px" /></a> | 
-					  </div></p>			
+			  <a href="http://twitter.com/home?status=@{{post.twitter}}"><img src="/img/email.png" width="20px" height="20px" title="Reply to the Author" alt="Reply to the Author" /></a> |  
+			  <a href="http://twitter.com/home?status={{post.title}}+http://bylinebeat.com{{post.url}}+by+@{{post.twitter}}"><img src="/img/t.png" width="20px" height="20px" alt="Share On Twitter" title="Share On Twitter" /></a> | 
+			 <a href="https://www.facebook.com/sharer.php?u=http://bylinebeat.com{{post.url}}&t={{post.title}}"><img src="/img/fb.png" width="20px" height="20px" alt="Share on Facebook" title="Share On Facebook" /></a> | 
+			 <a href="https://plus.google.com/share?url=http://bylinebeat.com{{post.url}}"><img src="/img/plus.png" width="20px" height="20px" alt="Share on Google+" title="Share on Google+" /></a> | 
+			 <a href="http://www.instapaper.com/hello2?url=http://bb3.bylinebeat.com{{post.url}}&title={{post.title}}"><img src="/img/i.png" width="20px" height="20px" alt="Read Later on Instapaper" title="Read Later on Instapaper" /></a> | 
+			 <a href="http://bylinebeat.com/rss"><img src="/img/rss.png" width="20px" height="20px" title="byline beat RSS feed" alt="byline beat RSS feed" /></a> | 
+			 					  </div></p>			
 			  {% endfor %}	
 		</div>		
 		

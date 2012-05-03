@@ -8,9 +8,6 @@ profilepic: /img/kg.jpg
 author: Alex Cacioppo
 authortitle: Contributing Editor
 initials: ac
-credit: May Day; Union Square (Alex Cacioppo/Byline Beat)
-source: on.bylinebeat.com
-image: http://dl.dropbox.com/u/42301026/Alex_Cacioppo_MayDay.jpg
 ---
 
 

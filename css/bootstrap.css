@@ -3516,8 +3516,8 @@ a.thumbnail:hover {
 }
 #BBmore {
 	color: white;
-	background-color: #a3a3a3;
-	border-radius: 45px;
+	background-color: black;
+	border-radius: 15px;
 	width: 280px;
 	margin-left: 15%;
 	margin-right: 15%;
@@ -3526,4 +3526,10 @@ a.thumbnail:hover {
 #TitleImage {
 	width: 500px;
 	text-align: center;
+}
+img.bbShareButton {
+	border-color: #afafaf;
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 5px;
 }

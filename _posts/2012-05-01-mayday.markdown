@@ -1,6 +1,6 @@
 ---
 layout: post2
-title: May Day: Occupy Protesters Take to Streets and Parks
+title: May Day Occupy Protesters Take to Streets and Parks
 category: more
 tags: tech
 twitter: lexiconstable

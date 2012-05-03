@@ -3519,6 +3519,7 @@ a.thumbnail:hover {
 	background-color: black;
 	border-radius: 45px;
 	width: 70%;
+	margin-left: 15%;
 	text-align: center;
 }
 #TitleImage {

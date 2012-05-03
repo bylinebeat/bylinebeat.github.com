@@ -8,9 +8,9 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 	<div class="row">		
 		<div class="span7 columns">
 			  {% for post in site.posts %}
-			  <hr width="75%" />
+			  <hr width="95%" />
 			  <small><a style="margin-left: 25%;"  href="{{ post.url }}">{{ post.date | date: "%H:%M • %A %B %d • %Y" }}</a></small>
-			  <hr width="75%" />	
+			  <hr width="95%" />	
 			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 			  	{% if post.author %}
 <div id="AttributeLine" class="bbAuthor">
@@ -23,7 +23,15 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 </div>
 {% endif %}
 			  <p><br /> {{ post.content|strip_html|truncate: 420 }} &nbsp; → <a href="{{ post.url }}">read|more ↩</a>
-			  <br /><div id="BBmore"> <a href="http://twitter.com/home?status={{post.title}}+http://bylinebeat.com{{post.url}}+by+@{{post.twitter}}"><img src="/img/t.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/fb.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/bird.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/u.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/pin.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/skitch.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/email.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/su.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/i.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/rss.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/evernote.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/in.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/plus.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/star.png" width="15px" height="15px" /></a> | <a href="#"><img src="/img/read.png" width="15px" height="15px" /></a> | 			  </div></p>			
+			  <br /><div id="BBmore"> 
+			  <a href="http://twitter.com/home?status={{post.title}}+http://bylinebeat.com{{post.url}}+by+@{{post.twitter}}"><img src="/img/t.png" width="15px" height="15px" /></a> | 
+			 <a href="https://www.facebook.com/sharer.php?u={{post.url}}&t={{post.title}}"><img src="/img/fb.png" width="15px" height="15px" /></a> | 
+			 <a href="http://twitter.com/home?status=@+{{post.twitter}}"><img src="/img/email.png" width="15px" height="15px" /></a> | 
+			 <a href="http://www.stumbleupon.com/services/1.01/badge.getinfo?url=http://bylinebeat.com/{{post.url}}"><img src="/img/su.png" width="15px" height="15px" /></a> | 
+			 <a href="http://www.instapaper.com/hello2?url=http://bylinebeat.com/{{post.url}}&title={{post.title}}"><img src="/img/i.png" width="15px" height="15px" /></a> | 
+			 <a href="http://bylinebeat.com/rss"><img src="/img/rss.png" width="15px" height="15px" /></a> | 
+			 <a href="https://plus.google.com/share?url=http://bylinebeat.com/{{post.url}}"><img src="/img/plus.png" width="15px" height="15px" /></a> | 
+					  </div></p>			
 			  {% endfor %}	
 		</div>		
 		

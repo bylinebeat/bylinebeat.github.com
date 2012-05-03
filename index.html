@@ -12,12 +12,12 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 			  <small><a style="margin-left: 25%;"  href="{{ post.url }}">{{ post.date | date: "%H:%M • %A %B %d • %Y" }}</a></small>
 			  <hr width="75%" />	
 			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			  	{% if page.author %}
+			  	{% if post.author %}
 <div id="AttributeLine" class="bbAuthor">
 
-<div id="AuthorLogo" class="bbAuthor"> {{page.initials}}</div>
+<div id="AuthorLogo" class="bbAuthor"> {{post.initials}}</div>
 
-<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/{{page.twitter}}" class="AuthorAttribute"> {{page.author}}</a> -- {{page.authortitle}} -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
+<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/{{post.twitter}}" class="AuthorAttribute"> {{post.author}}</a> -- {{post.authortitle}} -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
 
 
 </div>

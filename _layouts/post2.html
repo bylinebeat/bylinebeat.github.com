@@ -75,12 +75,14 @@
 <div class="container">	
 
 	<div class="span7 columns">
+	<h2>{{page.title}}</h2>
+	
 	{% if page.author %}
 <div id="AttributeLine" class="bbAuthor">
 
 <div id="AuthorLogo" class="bbAuthor"> {{page.initials}}</div>
 
-<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/{{page.twitter}}" class="AuthorAttribute"> {{page.author}}</a> -- {{page.authortitle}} -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
+<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/{{page.twitter}}" class="AuthorAttribute"> &nbsp; {{page.author}}</a> -- {{page.authortitle}} -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
 
 
 </div>
@@ -88,7 +90,11 @@
 	
 	
 	{{ content }}
-	
+	{% if page.note %}
+<div class="bbEditorNote">
+ -<br /> <b>Editor Note: </b> {{page.note}} <br />-
+</div>
+{% endif %}	
 	
 	{% if page.twitter %}
 <div class="bbAuthorTwitter">

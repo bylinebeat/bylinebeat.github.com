@@ -8,6 +8,7 @@ profilepic: /img/kg.jpg
 author: KG
 authortitle: Creative Director
 initials: kg
+note: KG is Creative Director & Coconspirator in all things byline beat
 ---
 
 

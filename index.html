@@ -17,12 +17,12 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 
 <div id="AuthorLogo" class="bbAuthor"> {{post.initials}}</div>
 
-<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/{{post.twitter}}" class="AuthorAttribute"> {{post.author}}</a> -- {{post.authortitle}} -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
+<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/{{post.twitter}}" class="AuthorAttribute"> &nbsp; {{post.author}}</a> -- {{post.authortitle}} -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
 
 
 </div>
 {% endif %}
-			  <p><br /> {{ post.content|strip_html|truncate: 420 }} &nbsp; <a href="{{ post.url }}">read|more →</a>
+			  <p><br /> {{ post.content|strip_html|truncate: 420 }} &nbsp; → <a href="{{ post.url }}">read|more ↩</a>
 			  <br /><div id="BBmore"> <a href="#">#</a>Tags | <a href="#">+</a>Share | <a href="#">☆</a>Favorite | <a href="#">↩</a>Permalink
 			  </div></p>			
 			  {% endfor %}	

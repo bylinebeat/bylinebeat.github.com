@@ -7,6 +7,34 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+a.AuthorAttribute {
+	color: black;
+	font-size: 14px;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+#AuthorLogo {
+	font-family: sans-serif;
+	padding-right: 4px;
+	float: left;
+	font-weight: bold;
+	font-size: 11px;
+	color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	width: 9px;
+	background-color: #903cf5;
+	border-radius: 55px;
+	opacity: .75;
+	
+}
+
+div.bbAuthor {
+	text-align: center;
+}
+
 BBlogo { width: 400px; height: 40; float: right; }
 
 article,

@@ -8,6 +8,17 @@ tags: tech, mac, compton
 
 ## Test
 
+---------
+
+<div id="AttributeLine" class="bbAuthor">
+
+<div id="AuthorLogo" class="bbAuthor"> kg</div>
+
+<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/kevingailey" class="AuthorAttribute"> Kevin Gailey</a> -- Creative Director -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
+
+
+</div>
+
 --------
 
 [bb](http://bylinebeat.com)

@@ -2,7 +2,10 @@
 layout: post2
 title: Test 12345678 QWERTY
 category: more
-tags: tech, mac, compton
+tags: tech
+twitter: kevingailey
+profilepic: img/kg.jpg
+author: KG
 ---
 
 

@@ -7,8 +7,8 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
- 
- div.bbShareBar {background-color: #9a9a9a;}
+ div.bbSpan {border-width: 75%;}
+ div.bbShareBar {border-width: 20%; background-color: #9a9a9a;}
 #TwitterFooter {border-top-color: black; border-top-style: solid; border-top-width: 3px; text-align: center; width: 85%; color: white; background-color: #515151;} 
 a.AuthorAttribute {
 	color: black;

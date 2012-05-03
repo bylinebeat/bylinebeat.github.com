@@ -75,13 +75,27 @@
 <div class="container">	
 
 	<div class="span7 columns">
+	{% if page.username %}
+<div id="AttributeLine" class="bbAuthor">
+
+<div id="AuthorLogo" class="bbAuthor"> {{page.initials}}</div>
+
+<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/{{page.twitter}}" class="AuthorAttribute"> {{page.author}}</a> -- {{page.authortitle}} -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
+
+
+</div>
+{% endif %}
+	
+	
 	{{ content }}
-	</div>
-{% if page.twitter %}
+	
+	
+	{% if page.twitter %}
 <div class="bbAuthorTwitter">
 <img src="{{page.profilepic}}"> Follow {{page.author}} on Twitter at <a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a>
 </div>
 {% endif %}
+	</div>
 
      <!-- Footer -->
 

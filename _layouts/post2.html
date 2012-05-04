@@ -85,6 +85,17 @@
 	
 	{% endif %}
 	
+	{% if page.video_url %}
+<div class="less-fancy-video-header">
+  <iframe 
+    class="yt-embed" 
+    src="{{ page.video_url }}?&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;hd=1&amp;wmode=transparent" 
+    frameborder="0" 
+    allowfullscreen="true"
+    ></iframe>
+</div>
+{% endif %}
+	
 	{% if page.author %}
 <div id="AttributeLine" class="bbAuthor">
 
@@ -100,16 +111,6 @@
 	
 	{{ content }}
 	
-	{% if page.video_url %}
-<div class="less-fancy-video-header">
-  <iframe 
-    class="yt-embed" 
-    src="{{ page.video_url }}?&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;hd=1&amp;wmode=transparent" 
-    frameborder="0" 
-    allowfullscreen="true"
-    ></iframe>
-</div>
-{% endif %}
 	
 	{% if page.note %}
 <div class="bbEditorNote">

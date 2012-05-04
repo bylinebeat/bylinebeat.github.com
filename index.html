@@ -41,12 +41,12 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 {% endif %}
 			  <p><br /> {{ post.content|strip_html|truncate: 480 }} &nbsp; → <a href="{{ post.url }}">read|more ↩</a>
 			  <br /><div id="BBmore"> 
-			  <a href="http://twitter.com/home?status=@{{post.twitter}}" title="Reply to the Author" alt="Reply to the Author" class="bbShareButtons">@ &nbsp; reply</a> |  
-			  <a href="http://twitter.com/home?status={{post.title}}+http://bylinebeat.com{{post.url}}+by+(@{{post.twitter}}+for+@bylinebeat)" alt="Share On Twitter" title="Share On Twitter" class="bbShareButtons">♯ &nbsp; tweet</a> | 
-			 <a href="https://www.facebook.com/sharer.php?u=http://bylinebeat.com{{post.url}}&t={{post.title}}" alt="Share on Facebook" title="Share On Facebook" class="bbShareButtons">♺ &nbsp; Facebook</a> | 
-			 <a href="https://plus.google.com/share?url=http://bylinebeat.com{{post.url}}" alt="Share on Google+" title="Share on Google+" class="bbShareButtons">⊕ &nbsp; google+</a> | 
-			 <a href="http://www.instapaper.com/hello2?url=http://bb3.bylinebeat.com{{post.url}}&title={{post.title}}" alt="Read Later on Instapaper" title="Read Later on Instapaper" class="bbShareButtons">∞ &nbsp; read|later</a> | 
-			 <a href="http://bylinebeat.com/rss" title="byline beat RSS feed" alt="byline beat RSS feed" class="bbShareButtons">⚌ &nbsp; RSS</a>  
+			  <a href="http://twitter.com/home?status=@{{post.twitter}}" title="Reply to the Author" alt="Reply to the Author" class="btn">@ &nbsp; reply</a> |  
+			  <a href="http://twitter.com/home?status={{post.title}}+http://bylinebeat.com{{post.url}}+by+(@{{post.twitter}}+for+@bylinebeat)" alt="Share On Twitter" title="Share On Twitter" class="btn">♯ &nbsp; tweet</a> | 
+			 <a href="https://www.facebook.com/sharer.php?u=http://bylinebeat.com{{post.url}}&t={{post.title}}" alt="Share on Facebook" title="Share On Facebook" class="btn">♺ &nbsp; Facebook</a> | 
+			 <a href="https://plus.google.com/share?url=http://bylinebeat.com{{post.url}}" alt="Share on Google+" title="Share on Google+" class="btn">⊕ &nbsp; google+</a> | 
+			 <a href="http://www.instapaper.com/hello2?url=http://bb3.bylinebeat.com{{post.url}}&title={{post.title}}" alt="Read Later on Instapaper" title="Read Later on Instapaper" class="btn">∞ &nbsp; read|later</a> | 
+			 <a href="http://bylinebeat.com/rss" title="byline beat RSS feed" alt="byline beat RSS feed" class="btn">⚌ &nbsp; RSS</a>  
 			 					  </div></p>			
 			  {% endfor %}	
 		</div>		

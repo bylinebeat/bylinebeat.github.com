@@ -1,0 +1,16 @@
+---
+layout: post2
+title: Riot Remix - 2 Chainz ft 50 Cent
+category: more
+tags: music
+twitter: thuggedoutjesus
+profilepic: /img/kg.jpg
+author: Kris Gangstar
+authortitle: Music Editor
+initials: kg
+source: youtube.com
+video_url: http://www.youtube.com/embed/cYRdhRxEijA
+---
+
+
+#### JAMMIN!

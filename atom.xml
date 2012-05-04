@@ -4,21 +4,21 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>byline | beat news commentary community & more</title>
- <link href="http://bylinebeat.github.com/atom.xml" rel="self"/>
- <link href="http://bylinebeat.com/"/>
+ <title>Eric Jones</title>
+ <link href="http://bb3.bylinebeat.com/atom.xml" rel="self"/>
+ <link href="http://bb3.bylinebeat.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://bylinebeat.com</id>
+ <id>http://bb3.bylinebeat.com</id>
  <author>
-   <name>byline beat news</name>
+   <name>byline | beat</name>
  </author>
  
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://bylinebeat.github.com{{ post.url }}"/>
+   <link href="http://bb3.bylinebeat.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://bylinebeat.github.com{{ post.id }}</id>
+   <id>http://bb3.bylinebeat.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

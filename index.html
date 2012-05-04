@@ -12,6 +12,23 @@ title: "byline|beat -- news commentary community & more -- @bylinebeat"
 			  <small><a style="margin-left: 25%;"  href="{{ post.url }}">{{ post.date | date: "%H:%M • %A %B %d • %Y" }}</a></small>
 			  <hr width="95%" />	
 			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			  
+			  	{% if post.titleimage %}
+	<img src="{{page.titleimage}}" width="500px" />
+	
+	{% endif %}
+	
+	{% if post.video_url %}
+<div class="less-fancy-video-header">
+  <iframe 
+    class="yt-embed" 
+    src="{{ page.video_url }}?&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;hd=1&amp;wmode=transparent" 
+    frameborder="0" 
+    allowfullscreen="true"
+    ></iframe>
+</div>
+{% endif %}
+			  
 			  	{% if post.author %}
 <div id="AttributeLine" class="bbAuthor">
 

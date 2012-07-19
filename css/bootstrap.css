@@ -3500,7 +3500,7 @@ a.thumbnail:hover {
   visibility: hidden;
 }
 	#ControllBar { 
-height: 45;
+height: 65;
 position: fixed;
 top: 0;
 left: 0;
@@ -3533,5 +3533,5 @@ border-left-width: 1px;
 border-right-color: #555;}
 	#TitleButton { text-align: center;
 font-size: 28px;
-padding-top: 19px;
+padding-top: 9px;
 color: #202020; }

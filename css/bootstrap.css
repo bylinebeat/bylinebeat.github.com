@@ -112,9 +112,12 @@ body {
   color: #333333;
   background-color: #ffffff;
 }
+a.BBbar {
+  text-decoration: none;
+}
 a {
   color: #0088cc;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover {
   color: #005580;

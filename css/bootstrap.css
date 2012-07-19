@@ -3524,6 +3524,7 @@ border-left-color: #555; }
  a { text-decoration: none; }	
  a:visited { color: #000000; }
  #RightButton {
+min-width: 55px;
 max-height: 45;
  font-size: 35px;
 float: right; padding-left: 15;  padding-right: 10; border-left-color: #CCC;

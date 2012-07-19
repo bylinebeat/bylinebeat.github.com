@@ -5,24 +5,15 @@ title: "byline|beat -- news commentary & more -- @bylinebeat"
 <div class="content">	  
 	<div class="row">		
 		<div class="span4 columns">
-		
-<br />
-<ul><li><a href="/tagged/bbhome"></a>Byline Beat</li>
-<li><a href="/tagged/bylinebeat">Page One</a></li>
-<li><a href="/tagged/politics">Politics</a></li>
-<li><a href="/tagged/tech">Tech</a></li>
-<li><a href="/tagged/video">Video</a></li>
-<li><a href="/tagged/drugssex">Drugs & Sex</a></li>
-<li><a href="/tagged/weeddude">@weeddude</a></li>
-<li><a href="/about/">About Us</a></li>
-</ul>
-</div>
-		<div class="span4 columns">
-			<h2>Latest Headlines</h2>
+	<h2>Headlines</h2>
 			  {% for post in site.posts %}	
 			  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . </small></p>			
-			  {% endfor %}	
+			  {% endfor %}		
+<br />
+</div>
+		<div class="span4 columns">
+			
 		</div>		
 		<div class="span4 columns">		  
 		  <!--<p><a class="btn btn-success btn-mini" id="gf" href="https://github.com/erjjones/followers" target="_blank"></a>&nbsp;<a class="btn btn-success btn-mini" id="gfr" href="https://github.com/erjjones/repositories" target="_blank"></a>&nbsp;<a class="btn btn-mini btn-info" href="https://github.com/erjjones/Feedback/issues/new" target="_blank"><i class="icon-comment icon-white"></i> Leave me feedback</a></p> -->

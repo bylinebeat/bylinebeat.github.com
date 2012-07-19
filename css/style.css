@@ -7,7 +7,7 @@ body {
   margin-top: 15px;
   font-size: 1.5em;
   line-height:1.3em;
-  font-family: Futura, Helvetica, Arial, sans-serif;
+  font-family: 'Caudex', serif;
   font-color: #2B2E2E;
   -webkit-font-smoothing: antialiased;
 }
@@ -18,24 +18,24 @@ a {
 }
 
 a:-webkit-any-link {
-  color: #609bff;
+  color: #2B2E2E;
   text-decoration: underline;
   cursor: auto;
 }
 
 a:link {
-  font-color:#609bff;
+  font-color:#2B2E2E;
   text-decoration:none;
 }
 
 
 a:visited {
-  font-color:#b0a9ac;
+  font-color:#2B2E2E;
   text-decoration:underline;
 }
 
 a:hover {
-  font-color:#b0a9ac;
+  font-color:#2B2E2E;
   text-decoration:underline;
 }
 
@@ -77,17 +77,17 @@ p.section {
 }
 
 .title {
-  font-size: 22px;
+  margin-left:1em;
 }
 
 #header {
   position: fixed;
-  margin-left:5px;
+  margin-left:15px;
 
 }
 
 .content {
-  margin-left:80px;
+  margin-left:180px;
 }
 
 .project {

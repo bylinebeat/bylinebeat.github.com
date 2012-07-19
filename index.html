@@ -1,48 +1,42 @@
 ---
 layout: layout
-title: "byline|beat -- news commentary community & more -- @bylinebeat"
+title: "byline|beat -- news commentary & more -- @bylinebeat"
 ---
-
-<div class="content">	 
-	<div class="span1 columns"><br /></div> 
+<div class="content">	  
 	<div class="row">		
-		<div class="span7 columns">
-			  {% for post in site.posts %}
-			  <hr width="95%" />
-			  <small><a style="margin-left: 25%;"  href="{{ post.url }}">{{ post.date | date: "%H:%M • %A %B %d • %Y" }}</a></small>
-			  <hr width="95%" />	
-			  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-			  
-			  	{% if post.titleimage %}
-	<img src="{{post.titleimage}}" width="500px" />
-	
-	{% endif %}
-	
-	{% if post.video_url %}
-  Video: Click Here To Play &nbsp; → <a href="{{ post.url }}">watch|here ↩</a>
-{% endif %}
-			  
-			  	{% if post.author %}
-<div id="AttributeLine" class="bbAuthor">
-
-<div id="AuthorLogo" class="bbAuthor"> {{post.initials}}</div>
-
-<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/{{post.twitter}}" class="AuthorAttribute"> &nbsp; {{post.author}}</a> -- {{post.authortitle}} -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
-
-
+		<div class="span4 columns">
+		
+<br />
+<ul><li><a href="/tagged/bbhome"></a>Byline Beat</li>
+<li><a href="/tagged/bylinebeat">Page One</a></li>
+<li><a href="/tagged/politics">Politics</a></li>
+<li><a href="/tagged/tech">Tech</a></li>
+<li><a href="/tagged/video">Video</a></li>
+<li><a href="/tagged/drugssex">Drugs & Sex</a></li>
+<li><a href="/tagged/weeddude">@weeddude</a></li>
+<li><a href="/about/">About Us</a></li>
+</ul>
 </div>
-{% endif %}
-			  <p><br /> {{ post.content|strip_html|truncate: 480 }} &nbsp; → <a href="{{ post.url }}">read|more ↩</a>
-			  <br /><div id="BBmore">  <a href="http://twitter.com/home?status=@{{page.twitter}}" title="Reply to the Author" alt="Reply to the Author" class="btn"><img src="/img/comment.png" height="20px" width="20px" /></a>  
-			  <a href="http://twitter.com/home?status={{page.title}}+http://bb3.bylinebeat.com{{page.url}}+by+(@{{page.twitter}}+for+@bylinebeat)" alt="Share On Twitter" title="Share On Twitter" class="btn"><img src="/img/twitter_bird.png" height="20px" width="20px" /></a> 
-			 <a href="https://www.facebook.com/sharer.php?u=http://bb3.bylinebeat.com{{page.url}}&t={{page.title}}" alt="Share on Facebook" title="Share On Facebook" class="btn"><img src="/img/facebook.png" height="20px" width="20px" /></a>  
-			 <!-- a href="https://plus.google.com/share?url=http://bb3.bylinebeat.com{{page.url}}" alt="Share on Google+" title="Share on Google+" class="btn"><img src="/img/retweet.png" height="20px" width="20px" /></a -->
-			 <a href="http://www.instapaper.com/hello2?url=http://bb3.bylinebeat.com{{page.url}}&title={{page.title}}" alt="Read Later on Instapaper" title="Read Later on Instapaper" class="btn"><img src="/img/heart.png" height="20px" width="20px" /></a>
-			 <a href="http://bylinebeat.com/rss" title="byline beat RSS feed" alt="byline beat RSS feed" class="btn"><img src="/img/wifi.png" height="20px" width="20px" /></a>   
-			 					  </div></p>			
+		<div class="span4 columns">
+			<h2>Latest Headlines</h2>
+			  {% for post in site.posts %}	
+			  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . </small></p>			
 			  {% endfor %}	
 		</div>		
-		
+		<div class="span4 columns">		  
+		  <!--<p><a class="btn btn-success btn-mini" id="gf" href="https://github.com/erjjones/followers" target="_blank"></a>&nbsp;<a class="btn btn-success btn-mini" id="gfr" href="https://github.com/erjjones/repositories" target="_blank"></a>&nbsp;<a class="btn btn-mini btn-info" href="https://github.com/erjjones/Feedback/issues/new" target="_blank"><i class="icon-comment icon-white"></i> Leave me feedback</a></p> -->
+		  
+		  <!-- <br/><br/>
+		  <img class="bs-icon" src="/img/icon-github.png">
+		  <h2>Repositories</h2>		  
+		  <div id="ghw"></div>-->
+		  <!-- <br/><br/>
+		  <img class="bs-icon" src="/img/glyphicons/glyphicons_151_edit.png">
+		  <h2>Feedback</h2>
+		  <p>If you have any questions or feedback for me please ask me anything you like and I'll do my best to respond as soon as I can.</p>
+		  <a class="btn btn-mini btn-info" href="https://github.com/erjjones/Feedback/issues/new" target="_blank"><i class="icon-comment icon-white"></i> Leave me feedback</a>-->
+		</div>		
 	</div>
 </div>
 

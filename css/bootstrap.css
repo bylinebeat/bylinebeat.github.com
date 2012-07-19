@@ -7,39 +7,6 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
- #bbBar {}
- 
- div.bbShareBar {width: 70%; background-color: #9a9a9a;}
-#TwitterFooter {border-top-color: black; border-top-style: solid; border-top-width: 3px; text-align: center; width: 85%; color: white; background-color: #515151;} 
-a.AuthorAttribute {
-	color: black;
-	font-size: 14px;
-	font-family: sans-serif;
-	text-decoration: none;
-}
-
-#AuthorLogo {
-	font-family: sans-serif;
-	padding-right: 4px;
-	float: left;
-	font-weight: bold;
-	font-size: 11px;
-	color: white;
-	border-color: black;
-	border-style: solid;
-	border-width: 2px;
-	width: 9px;
-	background-color: #903cf5;
-	border-radius: 55px;
-	opacity: .75;
-	
-}
-
-div.bbAuthor {
-}
-
-BBlogo { width: 400px; height: 40; float: right; }
-
 article,
 aside,
 details,
@@ -155,7 +122,6 @@ a:hover {
 }
 .row {
   margin-left: -20px;
-text-align: justify;
   *zoom: 1;
 }
 .row:before, .row:after {
@@ -188,8 +154,7 @@ text-align: justify;
   width: 460px;
 }
 .span7 {
-  width: 80%;
-  padding-left: 10%;
+  width: 540px;
 }
 .span8 {
   width: 620px;
@@ -294,14 +259,14 @@ text-align: justify;
   width: 99.99999998999999%;
 }
 .container {
-  width: 960px;
-  padding-left: 20px;
-  margin-right: 20px;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
   *zoom: 1;
 }
 .container:before, .container:after {
   display: table;
-  content: { padding-left: 25px;}
+  content: "";
 }
 .container:after {
   clear: both;
@@ -459,7 +424,7 @@ abbr {
 blockquote {
   padding: 0 0 0 15px;
   margin: 0 0 18px;
-  border-left: 5px solid #609bff;
+  border-left: 5px solid #eeeeee;
 }
 blockquote p {
   margin-bottom: 0;
@@ -480,7 +445,7 @@ blockquote.pull-right {
   padding-left: 0;
   padding-right: 15px;
   border-left: 0;
-  border-right: 5px solid #609bff;
+  border-right: 5px solid #eeeeee;
 }
 blockquote.pull-right p, blockquote.pull-right small {
   text-align: right;
@@ -774,7 +739,7 @@ input.span6, textarea.span6, .uneditable-input.span6 {
   width: 450px;
 }
 input.span7, textarea.span7, .uneditable-input.span7 {
-  width: 700px;
+  width: 530px;
 }
 input.span8, textarea.span8, .uneditable-input.span8 {
   width: 610px;
@@ -1172,7 +1137,7 @@ table .span6 {
 }
 table .span7 {
   float: none;
-  width: 500px;
+  width: 524px;
   margin-left: 0;
 }
 table .span8 {
@@ -2222,7 +2187,7 @@ button.btn.small, input[type="submit"].btn.small {
 }
 .nav .nav-header {
   display: block;
-  padding: 3px 5px;
+  padding: 3px 15px;
   font-size: 11px;
   font-weight: bold;
   line-height: 18px;
@@ -2231,20 +2196,20 @@ button.btn.small, input[type="submit"].btn.small {
   text-transform: uppercase;
 }
 .nav li + .nav-header {
-  margin-top: 15px;
+  margin-top: 9px;
 }
 .nav-list {
   padding-left: 14px;
-  padding-right: 4px;
+  padding-right: 14px;
   margin-bottom: 0;
 }
 .nav-list > li > a, .nav-list .nav-header {
-  margin-left: 5px;
-  margin-right: 5px;
+  margin-left: -15px;
+  margin-right: -15px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
 .nav-list > li > a {
-  padding: 3px 5px;
+  padding: 3px 15px;
 }
 .nav-list .active > a, .nav-list .active > a:hover {
   color: #ffffff;
@@ -2268,7 +2233,7 @@ button.btn.small, input[type="submit"].btn.small {
   clear: both;
 }
 .nav-tabs > li, .nav-pills > li {
-  
+  float: left;
 }
 .nav-tabs > li > a, .nav-pills > li > a {
   padding-right: 12px;
@@ -2474,7 +2439,23 @@ button.btn.small, input[type="submit"].btn.small {
   margin-bottom: 18px;
 }
 .navbar-inner {
-
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #2c2c2c;
+  background-image: -moz-linear-gradient(top, #333333, #222222);
+  background-image: -ms-linear-gradient(top, #333333, #222222);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
+  background-image: -webkit-linear-gradient(top, #333333, #222222);
+  background-image: -o-linear-gradient(top, #333333, #222222);
+  background-image: linear-gradient(top, #333333, #222222);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 .btn-navbar {
   display: none;
@@ -3513,23 +3494,4 @@ a.thumbnail:hover {
 }
 .invisible {
   visibility: hidden;
-}
-#BBmore {
-	color: white;
-	border-radius: 15px;
-	width: 90%;
-	margin-left: 15%;
-	margin-right: 15%;
-	text-align: center;
-}
-#TitleImage {
-	width: 500px;
-	text-align: center;
-}
-img.bbShareButton {
-	background-color: #afafaf;
-	border-color: #afafaf;
-	border-style: solid;
-	border-width: 5px;
-	border-radius: 5px;
 }

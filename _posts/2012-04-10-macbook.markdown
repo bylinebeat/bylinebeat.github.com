@@ -1,53 +1,1559 @@
----
-layout: post2
-title: Welcome to byline | beat 3.0 aka Project Jekyll
-category: more
-tags: tech
-twitter: kevingailey
-profilepic: /img/kg.jpg
-author: KG
-authortitle: Creative Director
-initials: kg
-note: KG is Creative Director & Coconspirator in all things byline beat
----
+<!DOCTYPE html>
+ <html xmlns:fb="http://www.facebook.com/2008/fbml" lang="en">
+ <head>
+      <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+      <meta name="width" content="500" />
+      <meta name="generator" content="Posterous" />
+      <script src="javascripts/vendor/modernizr.custom.09241.js?1334340652" type="text/javascript"></script>
+      <!--[if lt IE 9]>
+        <script src="/javascripts/innershiv.js?1334340652" type="text/javascript"></script>
+      <![endif]-->
+      <link href="bundles/posts.css" media="screen" rel="stylesheet" type="text/css" />
+      <!--[if lt IE 9]>
+        <link href="/bundles/ie.css" media="screen" rel="stylesheet" type="text/css" />
+      <![endif]-->
+      <link rel="alternate" type="application/rss+xml" href="rss.xml"/>
+      <meta name="medium" content="image" /><link rel="image_src" href="http://getfile1.posterous.com/getfile/files.posterous.com/ktotheg/iHyetkgJEcCfpBhmJmlstGFdtGczInawCthfhAdGDewhtlicyvrkmlzofIjD/media_httpimagesinsta_aBfFl.jpg.thumb100.jpg" />
+      <script type="text/javascript">
+//<![CDATA[
+window._token = 'raP6tNWoCQ20UMd9PQ7FZQbOt9OmpZGSQ3nm+N3Jm30='; beforeload = (new Date()).getTime(); pagetype = 'show';
+//]]>
+</script>
+      <script src="bundles/sites_initialization.js" type="text/javascript"></script>
+      <script type="text/javascript">
+//<![CDATA[
+var $j = jQuery.noConflict();
+//]]>
+</script>
+      <script type="text/javascript">
+//<![CDATA[
+var POSTEROUS_HOSTNAME = 'posterous.com'
+//]]>
+</script>
+      <script data-post-data="%7B%22post_is_private%22%3Afalse%2C%22post_url_slug%22%3A%2210-macbook%22%2C%22post_id%22%3A64965800%2C%22user_id%22%3A77283%7D" data-posterous-deferred-content-url="http://kevingailey.com/posts/deferred_content.jsonp" data-posts-data="%5B%7B%22post_is_private%22%3Afalse%2C%22post_url_slug%22%3A%2210-macbook%22%2C%22post_id%22%3A64965800%2C%22user_id%22%3A77283%7D%5D" id="posterous_initialization_script" src="javascripts/initialize.js?1334340652" type="text/javascript"></script>
+      
+    <script src="bundles/tags.js" type="text/javascript"></script><link rel="canonical" href="10-macbook" />
+     <meta charset="utf-8" />
+     <link href="images/favicon.png" rel="icon" type="image/x-png" />
+     <title>10&quot; MacBook  - the Mixtape Life</title>
+       
+       
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ <style type="text/css">
+ 
+ 
+ * {padding:0;margin:0;}
+ img {border:0;}
+ .clear {clear:both;font-size:5px;}
+ .left {float:left;}
+ .right {float:right;}
+ .text-right {text-align:right;}
+ .center {text-align:center;}
+ .small {font-size:.857em !important;} /* 12px */
+ .xsmall {font-size:.786em !important;} /* 11px */
+ .xxsmall {font-size:9px;}
+ .normal {font-size:12px !important;}
+ .big {font-size:14px !important;}
+ .bigger {font-size:16px !important;}
+ .black {color:#000;}
+ .green1,.green1:hover {color:#7ba709;}
+ .green2,.green2:hover {color:#6f9904;}
+ .darkgray {color:#333;}
+ .strong {font-weight:bold;}
+ .absolute-right {position:absolute;top:0;right:0;}
+ .white {color:#fff;}
+ .red {color:#f00;}
+ 
+ header,hgroup,footer,aside,nav,article,section,time {display:block;}
+ 
+ /*
+  * Web Fonts from fontspring.com
+  *
+  * All OpenType features and all extended glyphs have been removed.
+  * Fully installable fonts can be purchased at http://www.fontspring.com
+  *
+  * The fonts included in this stylesheet are subject to the End User License you purchased
+  * from Fontspring. The fonts are protected under domestic and international trademark and 
+  * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+  * distributing this font software.
+  *
+  * (c) 2010 Fontspring
+  *
+  *
+  *
+  *
+  * The fonts included are copyrighted by the vendor listed below.
+  *
+  * Vendor:      FontSite Inc.
+  * License URL: http://www.fontspring.com/fflicense/fontsite
+  *
+  *
+  */
+ 
+ @font-face {
+     font-family: 'AlternateGothicFSNo3';
+     src: url('themes/purple/AlternateGothicNo3-webfont.eot');
+     src: local('☺'), url('themes/purple/AlternateGothicNo3-webfont.woff') format('woff'), url('themes/purple/AlternateGothicNo3-webfont.ttf') format('truetype'), url('themes/purple/AlternateGothicNo3-webfont.svg') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+ 
+ body {
+     background:url(themes/purple/bg.jpg) repeat #2F313F;
+     color:#FFF;
+     font-family:"Helvetica Neue",Arial,Helvetica;
+     font-size:.875em; /* 14px */
+ }
+ 
+ a {
+     color:#CE8CCA;
+     text-decoration:underline;
+ }
+ 
+ .glow {
+     background:url(themes/purple/bg-top.jpg) no-repeat top center;
+     bottom:0;
+     position:fixed;
+     top:0;
+     left:0;
+     right:0;
+ }
+ 
+ .container {
+     margin:0 auto;
+     padding:0 20px 70px;
+     position:relative;
+     width:960px;
+     z-index:1;
+ }
+ 
+     .cw {
+         bottom:30px;
+         color:#2a2a2a !important;
+         font-family:AlternateGothicFSNo3,"Arial Narrow";
+         font-size:2em;
+         position:absolute;
+         text-align:center;
+         text-shadow:1px 1px 0 rgba(255,255,255,.1);
+         filter:dropshadow(color=#5a576a,offX=1,offY=1);
+         width:880px;
+     }
+     
+         .cw a {
+             color:#1e1e1e !important;
+             padding:0 3px;
+             text-decoration:none;
+         }
+         
+             .cw a:hover {
+                 text-decoration:underline;
+             }
+ 
+ #page_header {
+     padding:70px 0 60px 160px;
+ }
+ 
+     article header h1 {
+         font-family:AlternateGothicFSNo3,"Arial Narrow";
+         font-size:1.75em;
+         font-weight:normal;
+         line-height:1.2em;
+         padding-bottom:10px;
+         text-transform: capitalize;
+     }
+     
+         header#page_header h1.header_image {
+             padding-left:160px;
+         }
+ 
+         article header h1 a {
+             color:#FFF !important;
+             text-decoration:none;
+         }
+         
+         article header h1 a:hover {
+         }
+ 
+ header#page_header hgroup {
+ }
+ 
+     header#page_header hgroup h1 {
+         display:inline;
+         font-family:AlternateGothicFSNo3,"Arial Narrow";
+         font-size:3em;
+         letter-spacing:-.03em;
+         line-height:1em;
+         position:relative;
+         text-shadow:0 1px 2px #000;
+         text-transform: capitalize;
+         filter:dropshadow(color=#000,offX=0,offY=1);
+     }
+ 
+         header#page_header hgroup h1 a {
+             color:#FFF;
+             -webkit-mask-image:-webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0))); 
+             position:absolute;
+             text-decoration:none;
+     left:0;top:0;
+             /* -webkit-text-stroke:1px black; */
+         }
+         
+         header#page_header hgroup h1:after {
+             content:"\74\68\65\20\4d\69\78\74\61\70\65\20\4c\69\66\65";
+             color:#cfcfcf;
+       
+         }
+ 
+     header#page_header hgroup h2 {
+         display:inline-block;
+         color:#1b1624;
+         font-family:Arial, Helvetica, sans-serif;
+         font-size:1.429em;
+         font-weight:normal;
+         margin-top:5px;
+         padding:0;
+         text-shadow:0 1px 0 rgba(255,255,255,.15);
+         filter:dropshadow(color=#5e556f,offX=0,offY=1);
+     }
+ 
+ 
+ nav {
+     float:right;
+     padding-top:15px;
+ }
+ 
+     nav li {
+         display:inline-block;
+         font-family:AlternateGothicFSNo3,"Arial Narrow";
+         font-size:1.75em;
+         list-style:none;
+         margin-top:0; /* override default */
+         margin-right:20px;
+         text-transform:uppercase;
+     }
+     
+         nav li a {
+             color:#1b1624;
+             text-decoration:none;
+             text-shadow:0 1px 0 rgba(255,255,255,.25);
+             filter:dropshadow(color=#78518e,offX=0,offY=1);
+         }
+ 
+ nav#navigation ul li a.current {
+     font-weight:bold;
+ }
+ 
+ 
+ form.search input.text {
+     font-size: 12px;
+     padding: 2px 2px 2px 20px;
+     border: 1px solid #ccc;
+     background:#fff url('images/icons/search16.png') no-repeat 3px 3px;
+     -moz-border-radius: 3px;
+     -webkit-border-radius: 3px;
+     border-radius: 3px;
+ }
+ 
+ aside#sidebar {
+     float:right;
+     width:200px;
+ }
+ 
+     aside#sidebar a {
+         color:#FFF;
+         text-decoration:none;
+     }
+     
+     aside#sidebar a:hover {
+         text-decoration:underline;
+     }
+ 
+ aside#sidebar section {
+     display:block;
+     padding:15px 0;
+ }
+ 
+     aside section#profile {
+         padding-top:0;
+     }
+ 
+     aside#sidebar section h1,.profile-link {
+         color:#FFF;
+         font-family:AlternateGothicFSNo3,"Arial Narrow";
+         font-size:1.5em;
+         font-weight:normal;
+         text-shadow:0 1px 2px #000;
+         text-transform:uppercase;
+         filter:dropshadow(color=#000,offX=0,offY=1);
+     }
+     
+     aside#sidebar section ul li {
+         font-size:.786em;
+         list-style: none;
+         line-height:1.2em;
+         padding:0 3px;
+     }
+     
+     aside#sidebar section div.archive_list {
+       font-size:.786em;
+       line-height:1.2em;
+       margin-top:5px;  
+       padding:0 3px;      
+     }
+
+     aside#sidebar section div.archive_list div.archive {
+         margin-bottom:5px;        
+     }
+
+     aside#sidebar section div.archive_list div.inner {
+       margin-left:10px;
+       margin-bottom:7px;
+     }
+     
+     .profile_image {
+         background:rgba(0,0,0,.25);
+         border:solid 1px rgba(0,0,0,.35);
+         -moz-border-radius:5px;
+         -webkit-border-radius:5px;
+         border-radius:5px;
+         margin-bottom:10px;
+         padding:7px;
+     }
+     
+     .profile p {
+         line-height:1.5em;
+         padding-top:5px;
+     }
+     
+     .external {
+         padding-top:5px;
+     }
+ 
+ #search {
+     position: fixed;
+     padding:15px 0;
+ }
+ 
+     #searchbox {
+         background:url(themes/purple/search-black-50.png) no-repeat 7px 7px rgba(0,0,0,.25);
+         border:solid 1px rgba(0,0,0,.33);
+         -moz-border-radius:4px;
+         -webkit-border-radius:4px;
+         border-radius:4px;
+         color:#fff;
+         font-size:14px;
+         padding:3px 5px 3px 23px;
+         width:165px;
+     }
+     
+     #searchbox_button {
+         font-size:.875em;
+         font-weight:bold;
+         height:auto;
+         margin-top:5px;
+         padding:3px 10px;
+     }
+ 
+ section#search_results {
+     background:rgba(0,0,0,.25);
+     -moz-border-radius:5px;
+     -webkit-border-radius:5px;
+     border-radius:5px;
+     border:solid 1px rgba(0,0,0,.35);
+     padding:20px;
+     margin-bottom:35px;
+     margin-left:160px;
+ }
+ 
+     section#search_results .submit {
+         font-size:.875em;
+         font-weight:bold;
+         height:auto;
+         margin-top:5px;
+         padding:3px 10px;
+     }
+ 
+     section#search_results h1,section#filed_under h1 {
+         color:#FFF;
+         font-family:AlternateGothicFSNo3,"Arial Narrow";
+         font-size:1.429em;
+         line-height:1em;
+         text-transform:uppercase;
+     }
+     
+     section#search_results h1 {
+         padding-bottom:5px;
+     }
+     
+         section#search_results a {
+             text-decoration:none;
+         }
+     
+     section#filed_under {
+         margin-left:160px;
+     }
+     
+     section#filed_under h1 {
+         font-size:1em;
+         margin-bottom:25px;
+     }
+     
+     section#search_results ul {}
+         
+         section#search_results li {
+             display:inline-block;
+             font-size:.786em;
+             list-style:none;
+             margin-right:5px;
+         }
+         
+     .back_to_blog {
+         display:block;
+         font-weight:bold;
+         margin-bottom:15px;
+         margin-left:160px;
+     }
+         
+         .back_to_blog a {
+             color:#FFF;
+             text-decoration:none;
+         }
+ 
+ section#contributors li a:first-child {
+ padding-right:3px;
+ text-decoration:none;
+ }
+ 
+     section#contributors li a img {
+         background:none repeat scroll 0 0 rgba(0, 0, 0, 0.25);
+         border:1px solid rgba(0, 0, 0, 0.35);
+         -moz-border-radius:3px;
+         -webkit-border-radius:3px;
+         border-radius:3px;
+         height:20px;
+         padding:3px;
+         vertical-align:middle;
+         width:20px;
+     }
+     
+     section#contributors li a {
+         vertical-align:middle;
+     }
+ 
+     section#subscriptions {
+         padding-bottom:3px !important;
+         font-size:.786em;    
+     }
+
+         section#subscriptions h1 {
+             padding-bottom:5px;
+         }
+
+     section#rss {
+         padding-top:3px !important;
+     }
+
+     section#subscriptions a {
+         font-size:1em;
+         height:14px;
+     }
+
+     section#rss a {
+         display:block;
+         font-size:.786em;
+         height:14px;
+         padding-left:18px;
+     }
+
+     section#subscriptions .subscribe-site {
+         background:url(images/favicon.png) no-repeat -1px -1px;
+     }
+
+     section#subscriptions .subscribe-site div {
+         padding-left:18px;
+     }
+
+     section#rss a {
+         background:url(images/feed-icon-14x14.png) no-repeat -1px -1px;
+     }
+
+ 
+ section#statistics {
+     font-size: 10px;
+ }
+ 
+ section#statistics strong {
+ }
+ 
+ section#tags ul {
+     line-height:1.75em;
+ }
+ 
+     section#tags li {
+         background:#1f1b29;
+         border-top:solid 1px rgba(0,0,0,.75);
+         border-bottom:solid 1px rgba(0,0,0,.25);
+         display:inline;
+     }
+     
+     section#tags li.selected a {
+         padding:1px 3px;
+         font-weight:bold;
+     }
+     
+         section#tags li a:hover {
+             text-decoration:none;
+         }
+     
+         section#tags li.selected a:hover {
+             cursor:pointer;
+         }
+     
+ section#fans {
+ }
+ 
+     section#fans h1 {
+         font-size:.786em;
+     }
+ 
+     section#fans li {
+         list-style:none;
+     }
+ 
+         section#fans li a img {
+             background:#fff;
+             border:solid 1px #797878;
+             -moz-border-radius:3px;
+             -webkit-border-radius:3px;
+             border-radius:3px;
+             -moz-box-shadow:0 0 3px rgba(0,0,0,.3);
+             -webkit-box-shadow:0 0 3px rgba(0,0,0,.3);
+             box-shadow:0 0 3px rgba(0,0,0,.3);
+             height:20px;
+             padding:2px;
+             vertical-align:middle;
+             width:20px;
+         }
+         
+         section#fans li a {
+             color:#999;
+             font-size:.786em;
+             text-decoration:none;
+             vertical-align:middle;
+         }
+ 
+ 
+ article header aside.sms {
+     font-size: 11px;
+ }
+ 
+ footer section.locations h1 {
+     font-weight: normal;
+     line-height: 21px;
+     margin-top: 0px;
+ }
+ 
+ input, select, textarea {
+     font-size: 1.6em;
+     line-height:1.3em !important;
+     padding: 5px;
+ }
+ 
+ input[type='text'], input[type='password'], select, textarea {
+     background-color: #fff;
+     border: 1px solid #ccc;
+ }
+ 
+ input[type='button'], input[type='submit'] {
+     height: 2em;
+     font-size: 1.4em;
+     color: #000;
+     margin-top: 10px;
+ }
+ 
+ section.share {
+     margin-bottom: 18px;
+ }
+ 
+ #post_column {
+     float:left;
+     width:700px;
+ }
+         
+         #post_column .body a {
+             color:#CE8CCA;
+         }
+         
+         #post_column a:hover {
+         }
+ 
+     div#articles {
+     }
+     
+         .article-frame {
+             padding-left:160px;
+             position:relative;
+             width:540px;
+         }
+         
+             .article-frame .meta {
+                 font-size:.786em;
+                 left:0;
+                 position:absolute;
+                 text-align:right;
+                 top:30px;
+                 width:140px;
+             }
+             
+                 .article-frame .meta a {
+                     color:#d3d3d3;
+                     text-decoration:none;
+                 }
+             
+             .article-frame time {
+             }
+             
+                 .article-frame time div {display:inline;}
+             
+             .comment-count-line {
+                 background:#555375;
+                 display:inline-block;
+                 height:1px;
+                 margin:15px 0;
+                 width:41px;
+             }
+             
+             .meta h1 {
+                 background:url(themes/purple/comment.png) no-repeat;
+                 display:inline-block;
+                 font-size:1em;
+                 font-size:20px;
+                 height:37px;
+                 line-height:0;
+                 padding-right:1px;
+                 position:relative;
+                 text-align:center;
+                 width:40px;
+             }
+             
+                 .meta h1 a {
+                     color:#1b1624 !important;
+                     display:table-cell;
+                     font-family:AlternateGothicFSNo3,"Arial Narrow";
+                     font-weight:normal;
+                     letter-spacing:-.05em;
+                     height:37px;
+                     position:absolute;
+                     text-shadow:0 1px 0 rgba(255,255,255,.15);
+                     filter:dropshadow(color=#5e556f,offX=0,offY=1);
+                     top:16px;
+                     width:40px;
+                     vertical-align:middle;
+                 }
+ 
+     
+         article {
+             background:#272835;
+             background:rgba(0,0,0,.2);
+             background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0,0,0,.35)), to(rgba(0,0,0,.3)), color-stop(.3,rgba(0,0,0,.3)));
+             background:-moz-linear-gradient(100% 0% 270deg,rgba(0,0,0,.35), rgba(0,0,0,.3), rgba(0,0,0,.3) 50%);
+             border:solid 1px #1f1f2b;
+             border:solid 1px rgba(0,0,0,.25);
+             -moz-border-radius:5px;
+             -webkit-border-radius:5px;
+             border-radius:5px;
+             margin-bottom:45px;
+             padding:10px 20px 0;
+             position:relative;
+             -moz-box-shadow:0 1px 0 rgba(255,255,255,.15);
+             -webkit-box-shadow:0 1px 0 rgba(255,255,255,.15);
+             box-shadow:0 1px 0 rgba(255,255,255,.15);
+             width:500px;
+         }
+         
+             article header {
+             }
+             
+             article header section {
+                 min-height:40px;
+                 padding-top:17px;
+             }
+             
+             article header aside.sms {
+                 float:left;
+                 padding-top:10px;
+             }
+         
+         div.editbox {
+             height:16px;
+             position:absolute;
+             top:0;
+             visibility:hidden;
+         }
+         
+             div.editbox ul.mini_commands {
+                 margin-top:0;
+             }
+             
+                 ul.mini_commands li a {
+                     color:#CE8CCA;
+                 }
+             
+             article:hover div.editbox {
+                 visibility:visible;
+             }
+             
+         article div.body {
+             /* padding-top:10px; */
+         }
+         
+             article div.body div.inner {
+                 line-height:1.75em;
+             }
+             
+                 article div.body div.inner > :first-child {
+                     margin-bottom:0;
+                     margin-top:0;
+                 }
+                 
+                 article div.body div.inner > p:first-child {
+                     /* margin-top:15px; */
+                 }
+                 
+                 article div.body p, article div.body blockquote {
+                     margin:15px 0 18px;
+                 }
+                 
+                 article div.body div.posterousGalleryMainDiv {
+                     margin:0 0 15px;
+                 }
+                 
+                 div.posterousVideoMainDiv {
+                     margin:0;
+                 }
+                 
+                 .posterousGalleryMainDiv a.posterousGalleryMainlink {
+                     text-decoration:none !important;
+                 }
+                 
+                 article div.body div.inner a {
+                     text-decoration:underline;
+                 }
+                 
+                     article div.body div.inner a:hover {
+                     }
+                     
+                     article div.body div.inner ul,article div.body div.inner ol {
+                         padding-bottom:5px;
+                         padding-left:30px;
+                     }
+                 
+                 .galleryLabel {
+                     color:#FFF;
+                 }
+                     
+                 .inner blockquote {
+                     border-left:solid 4px #000 !important;
+                 }
+ 
+                 
+         article footer {
+             border-top:solid 1px #555375;
+             margin-top:10px;
+             padding-top:10px;
+             position:relative;
+         }
+ 
+             footer section {
+                 margin-bottom:10px;
+             }
+             
+                 footer section.author {
+                     color:#999;
+                     font-size:.786em;
+                     padding-bottom:10px;
+                 }
+                 
+                     footer section.author a {
+                         color:#999 !important;
+                     }
+                 
+                     footer section.author h1 {
+                         display:inline;
+                         font-size:1em;
+                         font-weight:normal;
+                     }
+                     
+         footer section.comments_box {
+             border-top:solid 1px #555375;
+             margin-top:15px;
+             padding-top:10px;
+         }
+         
+         div.commentunit {
+             color:#FFF !important;
+         }
+ 
+             footer section.comments h1 {
+                 font-size:.857em;
+                 font-weight:normal;
+             }
+             
+                 footer section.comments h1 a {
+                     text-decoration:none;
+                 }
+             
+             div.comment_none_yet_msg {
+                 font-style:italic;
+                 font-weight:normal;
+                 margin-top:5px;
+             }
+             
+             .commentunit .comment_value label {
+                 color:#FFF !important;
+             }
+             
+             footer section.comments section h1 {
+                 font-size:1em;
+                 font-weight:bold;
+             }
+             div.comment {
+             }
+             
+             div.comment b {
+                 font-weight:normal;
+             }
+ 
+ 
+             div.comment_label {
+                 padding-top: 2px;
+                 margin-top: 0px;
+             }
+             
+             
+             div.comment_date {
+             }
+             
+             div.commentunit {
+                 /* margin: 10px 0px; */
+             }
+             
+             .comment_profile_description {
+                 font-weight:bold;
+             }
+             
+                 .comment_profile_description div {
+                     font-weight:normal;
+                 }
+             
+             div.comment_value {
+             }
+ 
+             div.comment_avatar {
+                 margin-top:10px;
+             }
+ 
+             div.commentunit div.profile_icon {
+                 margin-top:5px;
+             }
+ 
+             div.commentname {
+                 margin-bottom:5px;
+             }
+ 
+             div.comment_loading_div {
+             /* margin-left:155px; */
+             }
+             
+             div.comment_area {
+                 color:#d3d3d3 !important;
+                 clear:left;
+             }
+             
+                 .posterous_comments_wrapper {
+                     border-top:solid 1px #555375;
+                     padding-top:10px;
+                 }
+             
+                 div.comment_area a {
+                     color:#d3d3d3;
+                 }
+                 
+                 footer section.comments h4 {
+                 }
+                 
+                 .comment_value input[type="submit"] {
+                     font-size:.875em;
+                     font-weight:bold;
+                     height:auto;
+                     margin-top:5px;
+                     padding:3px 10px;
+                 }
+                 
+                 footer section .comment_loading_div {
+                     background:url(themes/purple/loading1-white.gif) no-repeat;
+                     display:inline-block;
+                     height:11px;
+                     width:16px;
+                 }
+                 
+                 footer section .comment_loading_div {
+                     margin-top:5px;
+                 }
+                 
+                     footer section .comment_loading_div img {
+                         display:none;
+                     }
+ 
+ div.posterous_comments h4, div.spanningheader h4 {
+     margin:0;
+ }
+ 
+ 
+ footer section.tags {
+     color:#999;
+     font-size:.786em;
+     padding-bottom:10px;
+ }
+     
+     footer section.tags a {
+         color:#999 !important;
+     }
+ 
+     footer section.tags h1 {
+         display:inline;
+         font-size:11px;
+         margin:0;
+         padding-right:5px;
+     }
+     
+     footer section.tags h1 span {
+         font-weight:normal;
+     }
+     
+     footer section.tags ul {
+         display:inline;
+         margin:0;
+     }
+     
+     footer section.tags ul li {
+         display:inline;
+         list-style:none outside none;
+         padding-right:10px;
+     }
+     
+     footer section.tags ul li a {
+         color:#CE8CCA;
+     }
+     
+     footer section.locations {
+         margin-bottom:0;
+     }
+     
+     footer section.locations h2 {
+         font-size:11px;
+         margin-top:0;
+     }
+     
+     footer section.locations ul {
+         display:block;
+         margin:0;
+     }
+     
+     footer section.locations ul li {
+         display:block;
+         list-style:none outside none;
+     }
+     
+     footer section.locations div.location_detail {
+         background:rgba(0,0,0,.25);
+         -moz-border-radius:5px;
+         -webkit-border-radius:5px;
+         border-radius:5px;
+         border:solid 1px rgba(0,0,0,.35);
+         margin:10px 0;
+         overflow:auto;
+         padding:8px;
+     }
+     
+     footer section.locations div.location_detail div.map {
+         float:left;
+         height:150px;
+         width:300px;
+     }
+     
+     footer section.locations div.location_detail div.summary {
+         float:right;
+         width:172px;
+     }
+     
+     footer section.share, footer section.tags, footer section.locations {
+         display:block;
+         /* margin-left:155px; */
+     }
+ 
+ footer#pagination {
+     /* margin-left:155px; */
+     overflow:hidden;
+     padding-bottom:50px;
+     padding-left:160px;
+ }
+ 
+     .pagination {
+         margin:3px;
+         padding:3px;
+         text-align:center;
+     }
+ 
+     .pagination a {
+         background:rgba(255,255,255,.1);
+         border:solid 1px #FFF;
+         color:#FFF;
+         margin:2px;
+         padding:0 5px;
+         text-decoration:none;
+     }
+     
+     .pagination span.disabled {
+         border:solid 1px rgba(255,255,255,.1);
+         color:rgba(255,255,255,.25);
+         margin:2px;
+         padding:2px 5px;
+     }
+     
+     .pagination a:hover, .pagination a:active {
+         border:solid 1px rgba(255,255,255,.3);
+         color:#fff;
+     }
+     
+     .pagination span.current {
+         color:#FFF;
+         font-weight:bold;
+         padding:2px 5px;
+         margin:2px;
+     }
+ 
+ footer section.share {
+ height:25px;
+ }
+ 
+ /* misc */
+ 
+ div.ajaxResult {
+ color:#009900;
+ font-size:10px;
+ margin-bottom:10px;
+ }
+ 
+     div.retweet {
+     background:url("images/icons/services/twitter11.png") no-repeat scroll left center transparent;
+     display:inline-block;
+     min-height:11px;
+     min-width:1px;
+     padding-left:15px;
+     vertical-align:middle;
+     }
+     
+     .twitter-share-button {
+     float:left;
+     }
+     
+     div.facebook_like {
+     display:inline;
+     float:left;
+     margin-left:5px;
+     position:relative;
+     }
+ 
+ table {
+ border:medium none;
+ border-spacing:0;
+ font-size:11px;
+ line-height:16px;
+ margin:10px 0 0;
+ text-align:left;
+ }
+ 
+     td {
+     border-color:-moz-use-text-color -moz-use-text-color #EEEEEE;
+     border-style:none none solid;
+     border-width:medium medium 1px;
+     margin:0;
+     padding:4px;
+     vertical-align:top;
+     }
+     
+     th {
+     border-color:-moz-use-text-color -moz-use-text-color #CCCCCC;
+     border-style:none none solid;
+     border-width:medium medium 1px;
+     font-weight:bold;
+     padding:4px;
+     text-align:left;
+     vertical-align:bottom;
+     }
+ 
+ hr {
+ border:1px solid #DDDDDD;
+ margin-bottom:10px;
+ margin-top:10px;
+ }
+ 
+ div.posterousListComments div.comment, div.posterousAddNewComment div.comment, div.posterousAddNewComment div.comment_value {
+ /* margin-left:25px; */
+ }
+ 
+ section.private {
+     position:absolute;
+     left:-30px;
+     top:5px;
+ }
+ 
+     article header section.private {
+         min-height:0; /* overwrite default */
+         padding-top:0; /* overwrite default */
+     }
+     
+     section.private:hover div.private_post_message {
+     display:block;
+     }
+     div.private_post_message {
+     -moz-border-radius:5px;
+     -webkit-border-radius:5px;
+     border-radius:5px;
+     border: solid 1px rgba(0,0,0,.75);
+     background:rgba(0,0,0,.25);
+     color:#fff;
+     display:none;
+     padding:10px;
+     position:absolute;
+     right:-5px;
+     text-align:left;
+     top:-5px;
+     width:100px;
+     }
+     div.private_post_message h1 {
+     float:none;
+     font-size:11px;
+     margin:0 0 5px;
+     padding:0;
+     width:auto;
+     }
+     div.private_post_message p {
+     font-size:10px;
+     margin:0;
+     }
+     
+     div.posterous_retweet_widget {
+     margin:0 0 10px;
+     }
+ 
+ .fav_star {
+     margin-right:1px;
+     margin-top:2px;
+     z-index:10;
+ }
+
+.comment_hide_button {display:none !important}
+nav.p_response_widget {float:none;}
+.p_responses_list article{
+  background:transparent;
+  border:none;
+  -moz-border-radius:0px;
+  -webkit-border-radius:0px;
+  border-radius:0px;
+  margin-bottom:45px;
+  padding:10px 0px 0;
+  position:relative;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  width:500px;
+} 
+
+div.p_response_container header h1 { text-transform:none;font-family: "Helvetica Neue",Arial,Helvetica;font-size:12px;color:#ccc;}
+.p_responses_list .p_info, .p_responses_list .p_comment_body {color:#ccc;}
+.p_responses_list .p_comment .p_icon { background-position: -95px -15px; }
+.p_comment_form {margin-bottom:30px;}
+.p_responses .p_not_logged_in h2 {color:#eee;}
+.p_responses_list .p_like .p_icon {background-position: -79px -14px;}
+.p_response_widget ul li, .p_response_widget ul li:active, .p_response_widget ul li.active {background: rgba(238, 238, 238, 0.25);}
+.p_response_widget ul li:hover {background: rgba(221, 221, 221, 0.5);}
+.p_response_widget ul li a {text-shadow:none;}
+.p_response_widget ul li a, .p_response_widget ul li .loading_comment {color:#333;}
+ 
+ </style>
+ 
+ <!--[if IE 9]>
+ <style type="text/css">
+ h1 {letter-spacing:0;}
+ </style>
+ <![endif]--> 
+ <!--[if lte IE 9]>
+ <style type="text/css">
+  .cw, header#page_header hgroup h1, header#page_header hgroup h2, nav li a, aside#sidebar section h1,.profile-link, .meta h1 a {filter:none;}
+  
+  .p_response_widget ul li, .p_response_widget ul li:active, .p_response_widget ul li.active {filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#44000000, endColorstr=#44000000);}
+  .p_response_widget ul li:hover {filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);}
+ </style>
+ <![endif]--> 
+ </head>
+ 
+ <body><div class="posterous_site_data" data-post-id="64965800" data-posterous-hostname="posterous.com" data-show-type="post" data-site-id="208158" data-site-is-private="false" data-site-location="false" data-site-type="posterous" data-slug-id="10-macbook" data-user-id="77283"></div><div class="posterous_ojs" data-posterous-admin-box="true"></div><div class="posterousPrivateBox">
+	
+	
+</div>
+      <div id="fb-root"></div>
+        <script>
+          window.fbAsyncInit = function() {
+            FB.init({
+              appId  : 'bc99f5762b0e925829b12a00ae30ab5c',
+              status : true, // check login status
+              cookie : true, // enable cookies to allow the server to access the session
+              xfbml  : true, // parse XFBML
+              oauth  : true
+
+            });
+            
+          };
+
+          (function() {
+            var e = document.createElement('script');
+            e.type = 'text/javascript';
+            e.src = 'http://connect.facebook.net/en_US/all.js';
+            e.async = true;
+            document.getElementById('fb-root').appendChild(e);
+          }());
+        </script>
+    <noscript>
+  <div id="posterousbar_nojs">
+    <a href="http://posterous.com/"><img src="images/header/yellow.png" alt="Posterous" /></a>
+  </div>
+</noscript>
+<div id="pbar">
+</div>
+ <div class="glow"></div><!-- /.glow -->
+ 
+ <div class="container">
+  
+     <header id="page_header">
+         
+                
+           <nav id="navigation">
+             <ul>
+               
+                
+                 <li><a href="http://k.kevingailey.com/tml" class="" rel="external">the Mixtape (download)</a></li>
+               
+              
+             </ul>
+            </nav>
+          
+              
+         
+             <hgroup>
+               <h1><a href="index.html" title="the Mixtape Life" rel="index">the Mixtape Life</a></h1><br />
+                 
+                     <h2>Tabernacle. Chuuuch!</h2>
+                 
+             </hgroup>
+         
+     </header>
+ 
+                 <aside id="sidebar">
+                         <section id="profile">
+                           <h1>
+                             <a href="http://posterous.com/spaces/ktotheg" title="KG's profile">
+                               <img class="profile_image" src="http://files.posterous.com/user_profile_pics/1527593/smoKinG.JPG" alt="KG" />
+                             </a>
+                           </h1>
+                           <div class="profile small">
+                               <p><br /></p>
+                           </div>
+                         </section>
+         
+                         
+              
+                
+              
+          
+                         
+                             
+                
+                               
+                
+                  
+                                 <section class="links">
+                                   <h1>@kevingailey design</h1>
+                                   <ul>
+                                     
+                
+                                       <li><a href="http://twitter.com/kevingailey" rel="external">@kevingailey</a></li>
+                                     
+              
+                
+                                       <li><a href="http://bylinebeat.com" rel="external">byline | beat</a></li>
+                                     
+              
+                
+                                       <li><a href="http://wheretraditionwelcomesdiversity.org/" rel="external">St Johns Episcopal Church</a></li>
+                                     
+              
+                
+                                       <li><a href="http://k.kevingailey.com/gulftour" rel="external">#gulftour oil spill coverage</a></li>
+                                     
+              
+                
+                                       <li><a href="http://k.kevingailey.com/tml" rel="external">the Mixtape Lifestyle</a></li>
+                                     
+              
+                
+                                       <li><a href="http://ktotheg.co.cc/kgguide" rel="external">KG's Guide to NYC</a></li>
+                                     
+              
+                                   </ul>
+                                 </section>
+                               
+                
+              
+                
+                  
+                                 <section class="links">
+                                   <h1>Online</h1>
+                                   <ul>
+                                     
+                
+                                       <li><a href="http://last.fm/user/kevingailey" rel="external">Last.fm</a></li>
+                                     
+              
+                
+                                       <li><a href="http://mlkshk.com/user/kevingailey" rel="external">mlkshk</a></li>
+                                     
+              
+                                   </ul>
+                                 </section>
+                               
+                
+              
+                             
+              
+                         
+                          
+                         
+                         
+                 </aside>
+
+                 <div id="post_column">
+                  
+                     
+                         
+                             <section class="back_to_blog" id="extra_links">
+                                 <a href="index.html" rel="up">&laquo; Back to blog</a>
+                             </section>
+                         
+                     
+                         
+                     
+                     
+                     
+                     
+                     
+                   <div id="articles">
+                     
+                       <div class="article-frame">
+                                 
+                         <div class="meta">
+ 
+                             
+                               <time pubdate="pubdate" datetime="2011-08-10"><a href="10-macbook">August 10, 2011</a></time>
+                                                         
+                             
+                         </div>
+                                 
+                           <article class="post clearfix" id="post_64965800">
+                             <header>
+                                 
+                                 
+                                 
+                                     <h1><a href="10-macbook">10&quot; MacBook </a></h1>
+                                 
+                                 
+      	        
+            
+                               <div class="editbox">
+                                 
+        				
+                  
+                                   <ul class="mini_commands posterous_edit_box posterous_edit_box_hidden" data-posterous-edit-box="true" data-posterous-post-id="64965800">
+	
+	<li><a href="http://posterous.com/posts/edit/64965800">Edit</a></li>
+  <li><a href="http://kevingailey.com/posts/destroy/64965800" onclick="if (confirm('Are you sure you want to delete this post?')) { var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href;var m = document.createElement('input'); m.setAttribute('type', 'hidden'); m.setAttribute('name', '_method'); m.setAttribute('value', 'delete'); f.appendChild(m);var s = document.createElement('input'); s.setAttribute('type', 'hidden'); s.setAttribute('name', 'authenticity_token'); s.setAttribute('value', 'raP6tNWoCQ20UMd9PQ7FZQbOt9OmpZGSQ3nm+N3Jm30='); f.appendChild(s);f.submit(); };return false;">Delete</a></li>
+	<li><a href="http://posterous.com/posts/64965800/tags/edit_multiple" data-post-id="64965800" data-posterous-modal="true" data-posterous-tag-form="true">Tags</a></li>
+	
+	  <li><a href="http://posterous.com/autopost/crosspost?post_id=64965800" data-posterous-modal="true">Autopost</a>
+	
+</ul>
+
+                                 
+                
+              
+                               </div>
+     
+                             </header>
+                             <div class="body">
+                               <div class="inner">
+                                 <a href="http://instagr.am/p/J56i4/"><div class='posterousGalleryMainDiv p_embed p_image_embed' data-posterous-file-list='%5B%7B%22large%22%3A%22http%3A%2F%2Fgetfile9.posterous.com%2Fgetfile%2Ffiles.posterous.com%2Fktotheg%2FiHyetkgJEcCfpBhmJmlstGFdtGczInawCthfhAdGDewhtlicyvrkmlzofIjD%2Fmedia_httpimagesinsta_aBfFl.jpg.scaled1000.jpg%22%2C%22originalWidth%22%3A%22612%22%2C%22largeWidth%22%3A%22612%22%2C%22thumb%22%3A%22http%3A%2F%2Fgetfile4.posterous.com%2Fgetfile%2Ffiles.posterous.com%2Fktotheg%2FiHyetkgJEcCfpBhmJmlstGFdtGczInawCthfhAdGDewhtlicyvrkmlzofIjD%2Fmedia_httpimagesinsta_aBfFl.jpg.thumb.jpg%22%2C%22originalHeight%22%3A%22612%22%2C%22largeHeight%22%3A%22612%22%2C%22thumbWidth%22%3A%2236%22%2C%22height%22%3A%22500%22%2C%22main%22%3A%22http%3A%2F%2Fgetfile7.posterous.com%2Fgetfile%2Ffiles.posterous.com%2Fktotheg%2FiHyetkgJEcCfpBhmJmlstGFdtGczInawCthfhAdGDewhtlicyvrkmlzofIjD%2Fmedia_httpimagesinsta_aBfFl.jpg.scaled500.jpg%22%2C%22thumbHeight%22%3A%2236%22%2C%22originalSize%22%3A%22121%22%2C%22original%22%3A%22http%3A%2F%2Fgetfile7.posterous.com%2Fgetfile%2Ffiles.posterous.com%2Fktotheg%2FiHyetkgJEcCfpBhmJmlstGFdtGczInawCthfhAdGDewhtlicyvrkmlzofIjD%2Fmedia_httpimagesinsta_aBfFl.jpg%22%2C%22width%22%3A%22500%22%7D%5D' data-posterous-image-gallery-initialized='false' data-posterous-image-gallery='true' data-posterous-options='%7B%22zipFile%22%3Anull%2C%22zipFileSize%22%3Anull%2C%22external_url%22%3A%22http%3A%2F%2Finstagr.am%2Fp%2FJ56i4%2F%22%2C%22showDownload%22%3Atrue%2C%22url_slug%22%3A%2210-macbook%22%7D'>
+<a href="http://getfile9.posterous.com/getfile/files.posterous.com/ktotheg/iHyetkgJEcCfpBhmJmlstGFdtGczInawCthfhAdGDewhtlicyvrkmlzofIjD/media_httpimagesinsta_aBfFl.jpg.scaled1000.jpg"><img alt="Media_httpimagesinsta_abffl" height="500" src="http://getfile7.posterous.com/getfile/files.posterous.com/ktotheg/iHyetkgJEcCfpBhmJmlstGFdtGczInawCthfhAdGDewhtlicyvrkmlzofIjD/media_httpimagesinsta_aBfFl.jpg.scaled500.jpg" width="500" /></a>
+
+</div>
+</a>
+                                 
+                               </div>
+                             </div>
+                             
+                             
+                                 <footer>
+                                 
+        
+                                 
+                                     <section class="author locations" id="statistics">
+                                       
+                                         
+              
+      	          
+                                             
+    	        
+    	          
+                                                 <h1>Posted by <a href="http://posterous.com/users/1beq1b7Uyel" rel="author">Kevin Gailey</a></h1>
+                                             
+    					
+          
+                                             
+    	        
+            
+                                         
+      				
+            
+                                       
+                                         
+              
+                
+              
+            
+                                         Viewed <div class="posterous_ojs" data-posterous-view-count="true" data-posterous-post-id="64965800"></div> times
+                                     
+                                     </section>
+                                     
+                                     
+                                         
+                
+              
+                                     
+                                   
+                                 
+                             
+                                 
+                                 
+                                 
+              <aside class="p_responses light">
+                
+            
+          
+            
+              
+          		
+          		
+            
+          
+              </aside> 
+        		
+                                 
+                                 </footer>
+                                 
+                             
+                           </article>
+                         </div><!-- /.article-frame -->
+                     
+                   </div>
+                     <footer id="pagination">
+                       
+                     </footer>
+                 </div><!-- /#post_column -->
+                 
+                 <div class="clear"></div>
+ 
+ </div><!-- /.container -->
+ 
+ 
+
+  
+      <script type="text/javascript">
+    	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    	</script>
+    	<script type="text/javascript">
+    	var pageTracker = _gat._getTracker("UA-4054156-1");
+    	pageTracker._setDomainName("none");
+    	pageTracker._setAllowLinker(true);
+    	pageTracker._setAllowHash(false);
+    	pageTracker._initData();
+    	pageTracker._trackPageview();
+    	</script>
+    
+  
+  <!-- Quantcast Tag --> 
+  <script type="text/javascript">
+    var _qevents = _qevents || [];
+    _qevents.push( { qacct:"p-16ewveTurfCCM"} );
+  </script>
+  <script type="text/javascript" src="http://edge.quantserve.com/quant.js" async></script>
+  <noscript>
+  <div style="display: none;"><img src="https://pixel.quantserve.com/pixel/p-16ewveTurfCCM.gif" height="1" width="1" alt="Quantcast"/></div>
+  </noscript>
+  <!-- End Quantcast tag -->
 
 
-## Test
+	<script type="text/javascript">
+		try {
+			var pageTrackerUser = _gat._getTracker("UA-16375719-1");
+			pageTrackerUser._trackPageview();
+		} catch (err) {}
+	</script>
 
----------
+
+<script src="http://www.scribd.com/javascripts/view.js" type="text/javascript"></script>
+<script src="bundles/sites_views.js" type="text/javascript"></script>
+<script src="bundles/sites.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js" defer></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+<script>
+	var fbid_site_owner = 1;
+</script>
+
+
+<script>
+  var fb_comment_attachment_64965800   = {"media":[{"href":"http://kevingailey.com/10-macbook","type":"image","src":"http://images.instagram.com/media/2011/08/10/3ba9f89771ad426ab13edff9f1ada859_7.jpg"}],"href":"http://kevingailey.com/10-macbook","description":"","name":"10\" MacBook "};
+  var fb_comment_action_link_64965800  = [{"href":"http://kevingailey.com/10-macbook","text":"Read more on Posterous"}];
+</script>
 
 
 
---------
+<div class="posterous_ojs" data-posterous-twitter-oauth="true" data-posterous-post-ids="%7B%2264965800%22%3A%22http%3A%2F%2Fkevingailey.com%2F10-macbook%22%7D" data-posterous-redirect-url="http://posterous.com/oauth/init_oauth_and_redirect/?ssod=kevingailey.com&oauth_provider_type="></div>
+<script src="http://www.google.com/recaptcha/api/js/recaptcha_ajax.js" type="text/javascript"></script>
+<iframe src="http://posterous.com/analytics_tracker" style="height: 1px; width: 1px; display: none;"></iframe>
 
-[bb](http://bylinebeat.com)
+      <script type="text/javascript">
+        null_fn = function () {};
+        var mpmetrics = { track_links: null_fn, track: null_fn, track_funnel: null_fn, register: null_fn, register_once: null_fn, register_funnel: null_fn };
+      </script>
+    </body>
+ </html>
 
-# Welcome Hello
 
-Earlier this week, Ne-Yo puzzled Hip Hop fans when he announced that his next album will be titled The R.E.D. Album, a name that rapper Game used for his fourth LP just last year. Now, in a recent interview with XXL, the California native weighs in on the album name change.
-
-While one would expect Game to have a few qualms with Ne-Yo using the same album title as him, the Compton rapper gave the R&B crooner his blessings. He added that while he doesn't understanding the reasoning behind the similarity of titles, he is sure that Ne-Yo has a good reason for adopting the album name.
-
-“I don't know what that’s about, but I’ve always known Ne-Yo to be a cool dude, so I’m pretty sure he got his reasoning,” he explained. “More power to the lil’ homie.”
-
-This isn't the first time Game and Ne-Yo have crossed paths. The duo collaborated on the songs "Camera Phone" and "Gentleman's Affair," both featured on the Compton's 2008 album LAX.
-
-Earlier this week, Ne-Yo puzzled Hip Hop fans when he announced that his next album will be titled The R.E.D. Album, a name that rapper Game used for his fourth LP just last year. Now, in a recent interview with XXL, the California native weighs in on the album name change.
-
-While one would expect Game to have a few qualms with Ne-Yo using the same album title as him, the Compton rapper gave the R&B crooner his blessings. He added that while he doesn't understanding the reasoning behind the similarity of titles, he is sure that Ne-Yo has a good reason for adopting the album name.
-
------------
-
-“I don't know what that’s about, but I’ve always known Ne-Yo to be a cool dude, so I’m pretty sure he got his reasoning,” he explained. “More power to the lil’ homie.”
-
-This isn't the first time Game and Ne-Yo have crossed paths. The duo collaborated on the songs "Camera Phone" and "Gentleman's Affair," both featured on the Compton's 2008 album LAX.
-
-Earlier this week, Ne-Yo puzzled Hip Hop fans when he announced that his next album will be titled The R.E.D. Album, a name that rapper Game used for his fourth LP just last year. Now, in a recent interview with XXL, the California native weighs in on the album name change.
-
-While one would expect Game to have a few qualms with Ne-Yo using the same album title as him, the Compton rapper gave the R&B crooner his blessings. He added that while he doesn't understanding the reasoning behind the similarity of titles, he is sure that Ne-Yo has a good reason for adopting the album name.
-
-“I don't know what that’s about, but I’ve always known Ne-Yo to be a cool dude, so I’m pretty sure he got his reasoning,” he explained. “More power to the lil’ homie.”
-
-This isn't the first time Game and Ne-Yo have crossed paths. The duo collaborated on the songs "Camera Phone" and "Gentleman's Affair," both featured on the Compton's 2008 album LAX.
-
----------------

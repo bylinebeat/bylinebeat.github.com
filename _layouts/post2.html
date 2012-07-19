@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }} - byline beat news commentary community & more</title>
+    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -30,42 +30,28 @@
 
   <!-- Navbar
     ================================================== -->
- 		          	
-  <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container"><br />
-          	<div id="BBbar" style="z-index: 8;
-				border-top-color: black;
-				border-top-width: 2px;
-				border-radius: 28px;
-					border-bottom-color: black;
-					border-bottom-style: solid;
-					border-bottom-width: 6px;
-					margin-left: 5%;
-					text-align: center;
-					width: 90%;
-					margin-top: 0px;
-					background-color: white;
-					position: fixed;
-					border-top-style: solid;">
-					<ul class="nav nav-pills">
-					  <li class="dropdown" id="menu1">
-					    <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1" style="margin-left: 20px; margin-top: 15px;">
-<img src="/img/lists.png" height="60px" width="25"/>
-					      <b class="caret"></b>
-					    </a>
-					    <ul class="dropdown-menu">
-					    <li><a href="/tagged/bbhome">Byline Beat</a></li><br />
-						<li><a href="/tagged/bylinebeat">Page One</a></li><br />
-						<li><a href="/tagged/politics">Politics</a></li><br />
-						<li><a href="/tagged/tech">Tech</a></li><br />
-						<li><a href="/tagged/video">Video</a></li><br />
-						<li><a href="/tagged/drugssex">Drugs & Sex</a></li><br />
-						<li><a href="/tagged/weeddude">@weeddude</a></li><br />
-						<li><a href="/about/">About Us</a></li>
-						</ul>
-					  </li></ul><a href="http://bb3.bylinebeat.com/" class="title" title="Home"><img src="http://s3.amazonaws.com/data.tumblr.com/tumblr_lszgt0ImJH1qmnwbqo1_1280.png" height="25" width="350"/></a> <img src="/img/settings.png" height="48" style="float: right; margin-top: 20px; margin-right: 25px;" /><br />
-			</div>
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="http://kevingailey.com">KG.</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="http://kevingailey.github.com"> << </a>
+              </li>
+			  <li class="divider-vertical"></li>
+              <li class="">
+                <a href="http://www.twitter.com/kevingailey" target="_blank">@</a>
+              </li>		
+			  <li class="divider-vertical"></li>
+			  <li class="">
+              </li>			 
+			</ul>
           </div>
         </div>
       </div>
@@ -73,64 +59,8 @@
 
 <div class="container">	
 
-	<div class="span7 columns">
-	 <hr width="95%" />
-			  <small><a style="margin-left: 25%;"  href="{{ post.url }}">{{ page.date | date: "%H:%M • %A %B %d • %Y" }}</a></small>
-			  <hr width="95%" />	
-
-	<h2>{{page.title}}</h2>
-	
-	{% if page.titleimage %}
-	<img src="{{page.titleimage}}" width="500px" />
-	
-	{% endif %}
-	
-	{% if page.video_url %}
-<div class="less-fancy-video-header">
-  <iframe 
-    class="yt-embed" 
-    src="{{ page.video_url }}?&amp;rel=0&amp;showinfo=0&amp;autohide=1&amp;hd=1&amp;wmode=transparent" 
-    frameborder="0" 
-    allowfullscreen="true"
-    ></iframe>
-</div>
-{% endif %}
-	
-	{% if page.author %}
-<div id="AttributeLine" class="bbAuthor">
-
-<div id="AuthorLogo" class="bbAuthor"> {{page.initials}}</div>
-
-<div id="AuthorCredentials" class="bbAuthor"> <a href="http://twitter.com/{{page.twitter}}" class="AuthorAttribute"> &nbsp; {{page.author}}</a> -- {{page.authortitle}} -- at <a href="http://bylinebeat.com/about" class="AuthorAttribute">Byline Beat</a></div>
-
-
-</div>
-{% endif %}
-	
-	(<a href="{{page.source}}">{{page.source}}</a>)
-	
+	<div class="marketing">
 	{{ content }}
-	
-	
-	{% if page.note %}
-<div class="bbEditorNote">
- -<br /> <b>Editor Note: </b> {{page.note}} <br />-
-</div>
-{% endif %}	
-	
-	{% if page.twitter %}
-
-<div id="BBmore"> 
-			  <a href="http://twitter.com/home?status=@{{page.twitter}}" title="Reply to the Author" alt="Reply to the Author" class="btn"><img src="/img/comment.png" height="20px" width="20px" /></a>  
-			  <a href="http://twitter.com/home?status={{page.title}}+http://bb3.bylinebeat.com{{page.url}}+by+(@{{page.twitter}}+for+@bylinebeat)" alt="Share On Twitter" title="Share On Twitter" class="btn"><img src="/img/twitter_bird.png" height="20px" width="20px" /></a> 
-			 <a href="https://www.facebook.com/sharer.php?u=http://bb3.bylinebeat.com{{page.url}}&t={{page.title}}" alt="Share on Facebook" title="Share On Facebook" class="btn"><img src="/img/facebook.png" height="20px" width="20px" /></a>  
-			 <!-- a href="https://plus.google.com/share?url=http://bb3.bylinebeat.com{{page.url}}" alt="Share on Google+" title="Share on Google+" class="btn"><img src="/img/retweet.png" height="20px" width="20px" /></a -->
-			 <a href="http://www.instapaper.com/hello2?url=http://bb3.bylinebeat.com{{page.url}}&title={{page.title}}" alt="Read Later on Instapaper" title="Read Later on Instapaper" class="btn"><img src="/img/heart.png" height="20px" width="20px" /></a>
-			 <a href="http://bylinebeat.com/rss" title="byline beat RSS feed" alt="byline beat RSS feed" class="btn"><img src="/img/wifi.png" height="20px" width="20px" /></a>  
-			 					  </div>
-<div class="well"><div id=""><h4><img src="{{page.profilepic}}" height="15px" width="15px"> Follow {{page.author}} on Twitter at <a href="http://twitter.com/{{page.twitter}}">@{{page.twitter}}</a></h4></div>
-</div></div>
-{% endif %}
 	</div>
 
      <!-- Footer -->

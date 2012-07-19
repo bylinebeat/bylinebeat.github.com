@@ -3500,6 +3500,7 @@ a.thumbnail:hover {
   visibility: hidden;
 }
 	#ControllBar { 
+padding-bottom: 10px; 
 height: 65;
 position: fixed;
 top: 0;

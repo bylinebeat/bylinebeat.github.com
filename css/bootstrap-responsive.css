@@ -340,8 +340,7 @@
     margin-bottom: 2px;
   }
   .navbar .nav > li > a:hover, .navbar .dropdown-menu a:hover {
-    background-color: #222222;
-  }
+	background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA);  }
   .navbar .dropdown-menu {
     position: static;
     top: auto;

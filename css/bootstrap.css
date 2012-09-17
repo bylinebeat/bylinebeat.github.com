@@ -3545,8 +3545,8 @@ div.bbAction { width: 45%; }
 #summary { padding: 8px;}
 #bbCards{
 	display: inline-block;
-	    width: 90%;
-		min-height: 50px;
+	    width: 95%;
+		min-height: 80px;
 	    border: 1px solid #666;
 	    border-radius: .6em;
 	    -moz-border-radius: .6em;
@@ -3562,3 +3562,4 @@ div.bbAction { width: 45%; }
 	    -webkit-box-shadow: .2em .2em .3em #333;
 	    box-shadow: .2em .2em .3em #333;
 }
+img.titleimg { width:100%; height: 120px; border: .5px solid #FFFFFF; }

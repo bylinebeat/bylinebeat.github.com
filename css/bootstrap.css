@@ -3538,12 +3538,13 @@ border-right-color: #555;}
 font-size: 28px;
 padding-top: 9px;
 color: #202020; }
-#bbShare { float:left; padding-left: 20%; }
-#bbRead { float: right; padding-right: 20%; }
+#bbShare { float:left; padding-left: 8%; }
+#bbRead { float: right; padding-right: 8%; }
 #bbFeed { padding-top: 55px;}
 div.bbAction { border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
 #bbHeadline { border-bottom: 1px solid #AAA; }
 #summary { padding: 8px;}
+#IMGcredit ( float: right; )
 #bbCards{
 	display: inline-block;
 	    width: 98%;

@@ -3540,20 +3540,20 @@ padding-top: 9px;
 color: #202020; }
 #bbShare { float:left; }
 #bbRead { float: right; }
-#bbFeed { margin-top: 55px;}
+#bbFeed { padding-top: 55px;}
 div.bbAction { width: 45%; }
 #bbHeadline { border-bottom: 1px solid #AAA; }
 #summary { padding: 8px;}
 #bbCards{
 	display: inline-block;
-	    width: 95%;
-		min-height: 80px;
+	    width: 98%;
+		min-height: 200px;
 	    border: 1px solid #666;
 	    border-radius: .6em;
 	    -moz-border-radius: .6em;
 	    -webkit-border-radius: .6em;
 	    -khtml-border-radius: .6em;
-	    padding: 1em .25em .25em .25em;
+	    padding: .25em .25em .25em .25em;
 	    margin: .5em .5em .5em 0;
 	    text-align: center;
 	    font-weight: normal;
@@ -3563,6 +3563,6 @@ div.bbAction { width: 45%; }
 	    -webkit-box-shadow: .2em .2em .3em #333;
 	    box-shadow: .2em .2em .3em #333;
 }
-img.titleimg { width:120%; height: 200px; 
+img.titleimg { width:120%; height: 145px; 
 -webkit-border-right-image: -webkit-radial-gradient(right,white,black 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch;
 -webkit-border-left-image: -webkit-radial-gradient(left,black,white 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch; }

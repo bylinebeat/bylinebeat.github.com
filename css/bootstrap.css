@@ -3549,10 +3549,10 @@ div.bbAction { width: 45%; }
 	    width: 98%;
 		min-height: 200px;
 	    border: 1px solid #666;
-	    border-radius: .6em;
-	    -moz-border-radius: .6em;
-	    -webkit-border-radius: .6em;
-	    -khtml-border-radius: .6em;
+	    border-radius: .4em;
+	    -moz-border-radius: .4em;
+	    -webkit-border-radius: .4em;
+	    -khtml-border-radius: .4em;
 	    padding: .25em .25em .25em .25em;
 	    margin: .5em .5em .5em 0;
 	    text-align: center;

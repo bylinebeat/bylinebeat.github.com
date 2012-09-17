@@ -3538,8 +3538,8 @@ border-right-color: #555;}
 font-size: 28px;
 padding-top: 9px;
 color: #202020; }
-#read { float:left }
-div.bbAction { width: 50%; border-top: 1px solid #AAA; }
+#share { float:left }
+div.bbAction { width: 45%; }
 #bbHeadline { border-bottom: 1px solid #AAA; }
 #summary { padding: 3px;}
 #bbCards{

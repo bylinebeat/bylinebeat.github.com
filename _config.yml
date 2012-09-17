@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://bylinebeat.github.com
+title: bylinebeat | newyork
+subtitle: Local News Commentary Events And More.
+author: bylinebeat
 simple_search: http://google.com/search
 description:
 
@@ -27,7 +27,7 @@ email:
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
-permalink: /blog/:year/:month/:day/:title/
+permalink: /p/:year/:month/:title/
 source: source
 destination: public
 plugins: plugins
@@ -56,6 +56,11 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
+
+bbCode:
+	100: Michael Rusch - Editor in Cheif
+	200: Kevin Gailey - Creative Director
+	300: Daria - Copy Editor
 
 # Github repositories
 github_user:

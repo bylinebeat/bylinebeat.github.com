@@ -3538,7 +3538,8 @@ border-right-color: #555;}
 font-size: 28px;
 padding-top: 9px;
 color: #202020; }
-#share { float:left }
+#bbShare { float:left; }
+#bbRead { float: right; }
 #bbFeed { margin-top: 55px;}
 div.bbAction { width: 45%; }
 #bbHeadline { border-bottom: 1px solid #AAA; }
@@ -3562,4 +3563,4 @@ div.bbAction { width: 45%; }
 	    -webkit-box-shadow: .2em .2em .3em #333;
 	    box-shadow: .2em .2em .3em #333;
 }
-img.titleimg { width:100%; height: 120px; border: .5px solid #FFFFFF; }
+img.titleimg { width:100%; height: 120px; border: .5px solid #000000; }

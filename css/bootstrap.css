@@ -3508,11 +3508,11 @@ left: 0;
 width: 100%;
 z-index: 1337;
 background-color: #F8F8F8;
-background-image: -webkit-linear-gradient(#F8F8F8, #aaaaaa);
+background-image: -webkit-linear-gradient(#333300, #000000);
 border-bottom: 1px solid #AAA;
 box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
 }
-	#LeftButton:hover { background-color: #FFFFFF; box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0); }
+	#LeftButton:hover { box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0); }
   #LeftButton {
 min-width: 25px;
 max-height: 45;

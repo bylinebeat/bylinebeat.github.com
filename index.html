@@ -6,7 +6,6 @@ title: "bylinebeatny -- local news commentary events & more -- @bylinebeatny"
 	<div class="row">		
 		<div class="span4 columns">
 			
-	<h2>Headlines</h2>
 			  {% for post in site.posts %}	
 		 <div id="bbCards"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . </small></p>

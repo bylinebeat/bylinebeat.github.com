@@ -3539,6 +3539,7 @@ font-size: 28px;
 padding-top: 9px;
 color: #202020; }
 #share { float:left }
+#bbFeed { margin-top: 55px;}
 div.bbAction { width: 45%; }
 #bbHeadline { border-bottom: 1px solid #AAA; }
 #summary { padding: 3px;}

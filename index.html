@@ -7,8 +7,12 @@ title: "bylinebeatny -- local news commentary events & more -- @bylinebeatny"
 		<div class="span4 columns">
 			
 			  {% for post in site.posts %}	
-		 <div id="bbCards"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-			  <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . </small></p>
+		 <div id="bbCards"><h3><div>
+			 <div id="bbHeadline"><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
+			 <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . </small></p>
+			 {{page.content | truncatewords: 55}}
+			  
+			  <div id="bbBio">{{ post.author - post.ctitle - @bylinebeat}}</div>
 		 
 		 </div>			
 			  {% endfor %}		

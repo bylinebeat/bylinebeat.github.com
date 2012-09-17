@@ -3565,4 +3565,4 @@ div.bbAction { width: 45%; }
 }
 img.titleimg { width:100%; height: 120px; border: .5px solid #000000; border-width: 2px; border-style: solid;
 
--webkit-border-image: -webkit-radial-gradient(black,white 50%,rgba(255,255,255,0)) 100% 0 stretch stretch; }
+-webkit-border-image: -webkit-radial-gradient(white,black 80%,rgba(255,255,255,0)) 100% 0 stretch stretch; }

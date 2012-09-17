@@ -10,5 +10,3 @@ category: king
 ### Hello!!
 
 This is purely **A TEST**
-
-{{ post.bbCode }}

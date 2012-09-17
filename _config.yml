@@ -58,9 +58,21 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 bbCode:
-	100: Michael Rusch - Editor in Cheif
-	200: Kevin Gailey - Creative Director
-	300: Daria - Copy Editor
+	100: 
+		bbAuthor: Michael Rusch
+		bbCTitle: Editor in Cheif
+		twitter: weeddude
+		bbURL: http://bylinebeat.com/weeddude
+	200:
+		bbAuthor: Kevin Gailey
+		bbCTitle: Creative Director
+		twitter: kevingailey
+		bbURL: http://bylinebeat.com/kg
+	300: 
+		bbAuthor: Daria Rose
+		bbCTitle: Copy Editor
+		twitter: daria67
+		bbURL: http://bylinebeat.com/about
 
 # Github repositories
 github_user:

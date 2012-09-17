@@ -11,12 +11,11 @@ title: "bylinebeat | newyork -- local news commentary events & more -- @bylinebe
 			 <div id="bbHeadline"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
 			 {% if post.titleimg %}
 			 <img class="titleimg" src="{{ post.titleimg }}" alt="{{ post.title }}" />
-			   <p><small><em>{{ post.credit }}</em></small></p>
+			   <p><small><em>Photo Credit: {{ post.credit }}</em></small></p>
 			 {% endif %}
 			  <p><small><strong> {{ post.date | date: "%B %e, %Y" }} by Kevin Gailey</strong>  </small></p>
 			 <div id="bbSummary"> {{ post.summary }}<br /><br /></div>
 			 <div class="bbAction">
-				 <hr width="95%" color="#AAA">
 				 <a id="bbShare" href="http://twitter.com/share?{{ post.url }}">&#9842; &nbsp;Share</a>&nbsp; | &nbsp;<a id="bbRead" href="{{ post.url }}">Read &nbsp;➜</a>   </div>
 		 </div>		
 			  {% endfor %}		

@@ -3563,7 +3563,6 @@ div.bbAction { width: 45%; }
 	    -webkit-box-shadow: .2em .2em .3em #333;
 	    box-shadow: .2em .2em .3em #333;
 }
-img.titleimg { width:100%; height: 120px; 
-
+img.titleimg { width:120%; height: 200px; 
 -webkit-border-right-image: -webkit-radial-gradient(right,white,black 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch;
 -webkit-border-left-image: -webkit-radial-gradient(left,black,white 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch; }

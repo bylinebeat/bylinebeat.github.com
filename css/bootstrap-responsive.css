@@ -342,8 +342,9 @@
   .navbar .nav > li > a:hover, .navbar .dropdown-menu a:hover {
 	background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA);  }
   .navbar .dropdown-menu {
-    position: static;
+    position: fixed;
     top: auto;
+	z-index: 1015;
     left: auto;
     float: none;
     display: block;

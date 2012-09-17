@@ -3547,7 +3547,7 @@ div.bbAction { -webkit-border-bottom-left-radius: .4em;
 -moz-border-radius-bottomright: .4em;
 border-bottom-left-radius: .4em;
 border-bottom-right-radius: .4em;
-border-top: 1px solid #AAA;
+border: 1px solid #666;
  }
 #bbHeadline {
 	-webkit-border-top-left-radius: .4em;
@@ -3556,17 +3556,12 @@ border-top: 1px solid #AAA;
 	-moz-border-radius-topright: .4em;
 	border-top-left-radius: .4em;
 	border-top-right-radius: .4em;
-	 border-bottom: 1px solid #AAA; }
+	 border: 1px solid #666; }
 #summary { padding: 8px;}
 #bbCards{
 	display: inline-block;
 	    width: 98%;
 		min-height: 200px;
-	    border: 1px solid #666;
-	    border-radius: .4em;
-	    -moz-border-radius: .4em;
-	    -webkit-border-radius: .4em;
-	    -khtml-border-radius: .4em;
 	    padding: .25em .25em .25em .25em;
 	    margin: .5em .5em .5em 0;
 	    text-align: center;

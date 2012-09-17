@@ -3542,7 +3542,7 @@ color: #202020; }
 #bbFeed { margin-top: 55px;}
 div.bbAction { width: 45%; }
 #bbHeadline { border-bottom: 1px solid #AAA; }
-#summary { padding: 3px;}
+#summary { padding: 8px;}
 #bbCards{
 	display: inline-block;
 	    width: 90%;

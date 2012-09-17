@@ -4,6 +4,7 @@ title: Hola ola la la la
 category: test
 bbCode: 200
 titleimg: /img/hola.jpg
+credit: KG / BB
 summary: when an unknown printer took a galley of type and scrambled it to make a type specimen book
 
 ---

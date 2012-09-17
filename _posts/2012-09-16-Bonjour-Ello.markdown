@@ -5,6 +5,7 @@ category: test
 bbCode: 200
 summary: when an unknown printer took a galley of type and scrambled it to make a type specimen book
 titleimg: /img/bonjour.jpg
+credit: Mike Rusch / NYTimes
 ---
 
 

@@ -4,6 +4,7 @@ title: Hello ello ello ello
 category: photos
 bbCode: 200
 titleimg: /img/ello.png
+credit: ME / ME Inc
 summary: when an unknown printer took a galley of type and scrambled it to make a type specimen book
 ---
 

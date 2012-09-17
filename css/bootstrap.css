@@ -3542,12 +3542,11 @@ color: #202020; }
 #bbRead { float: right; padding-right: 8%; }
 #bbFeed { padding-top: 55px;}
 div.bbAction { border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
-#bbHeadline { border-bottom: 1px solid #AAA; }
+#bbHeadline { padding-bottom: 3px; border-bottom: 1px solid #AAA; }
 #summary { padding: 8px;}
 #bbCards{
 	display: inline-block;
 	    width: 98%;
-		min-height: 200px;
 	    border: 1px solid #666;
 	    border-radius: .4em;
 	    -moz-border-radius: .4em;

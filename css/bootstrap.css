@@ -3538,6 +3538,8 @@ border-right-color: #555;}
 font-size: 28px;
 padding-top: 9px;
 color: #202020; }
+#share { float:left }
+div.bbAction { width: 50%; border-top: 1px solid #AAA; }
 #bbHeadline { border-bottom: 1px solid #AAA; }
 #summary { padding: 3px;}
 #bbCards{

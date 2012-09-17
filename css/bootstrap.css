@@ -3501,47 +3501,10 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
-	#ControllBar { 
-padding-bottom: 10px; 
-height: 65;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-z-index: 1337;
-background-color: #F8F8F8;
-background-image: -webkit-linear-gradient(#333300, #000000, #333300);
-border-bottom: 1px solid #AAA;
-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
-}
-	#LeftButton:hover { box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0); }
-  #LeftButton {
-min-width: 25px;
-max-height: 45;
-font-family: sans-serif; font-size: 16px;
-float: left; padding-right: 10; padding-left: 28; border-right-color: #CCC;
-border-right-style: solid;
-border-right-width: 1px;
-border-left-color: #555; }
-	#RightButton:hover { box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0); }
- a { text-decoration: none; }	
- a:visited {}
- #RightButton {
-min-width: 55px;
-max-height: 45;
- font-size: 35px;
-float: right; padding-left: 15;  padding-right: 10; border-left-color: #CCC;
-border-left-style: solid;
-border-left-width: 1px;
-border-right-color: #555;}
-	#TitleButton { text-align: center;
-font-size: 28px;
-padding-top: 9px;
-color: #202020; }
 #bbFeed { padding-top: 55px;}
 div.bbAction {  text-align: center; font-weight: bold; border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
 #bbHeadline {  padding-bottom: 3px; border-bottom: 1px solid #AAA; }
-#summary { padding: 8px;}
+#summary { padding: 8px; font-weight: lighter; }
 #bbCards{
 	display: inline-block;
 	    width: 98%;
@@ -3561,5 +3524,6 @@ div.bbAction {  text-align: center; font-weight: bold; border-top: 1px solid #AA
 	    box-shadow: .2em .2em .3em #333;
 }
 img.titleimg { width:100%; height: 145px; background-color: white;
+-webkit-mask-box-image: -webkit-linear-gradient(black, transparent);
 -webkit-border-right-image: -webkit-radial-gradient(white,black 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch;
 -webkit-border-left-image: -webkit-radial-gradient(black,white 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch; }

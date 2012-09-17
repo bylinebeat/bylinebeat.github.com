@@ -3501,8 +3501,9 @@ a.thumbnail:hover {
 .invisible {
   visibility: hidden;
 }
+a {text-decoration: none;}
 #bbFeed { padding-top: 55px;}
-div.bbAction {  text-align: center; font-weight: bold; border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
+div.bbAction { color: black; text-decoration: none; text-align: center; font-weight: bold; margin-bottom: 3px; width: 100%; }
 #bbHeadline {  padding-bottom: 3px; border-bottom: 1px solid #AAA; }
 #summary { padding: 8px; font-weight: lighter; }
 #bbCards{

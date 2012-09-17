@@ -3541,9 +3541,9 @@ color: #202020; }
 #bbShare { float:left; padding-left: 8%; }
 #bbRead { float: right; padding-right: 8%; }
 #bbFeed { padding-top: 55px;}
-div.bbAction { background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA); border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
-#bbHeadline { background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA); padding-bottom: 3px; border-bottom: 1px solid #AAA; }
-#summary { padding: 8px; background-image: -webkit-linear-gradient(#EAEAEA, #F8F8F8);}
+div.bbAction {  border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
+#bbHeadline {  padding-bottom: 3px; border-bottom: 1px solid #AAA; }
+#summary { padding: 8px;}
 #bbCards{
 	display: inline-block;
 	    width: 98%;
@@ -3556,8 +3556,8 @@ div.bbAction { background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA); bord
 	    margin: .5em .5em .5em 0;
 	    text-align: center;
 	    font-weight: normal;
-	    background-color: #FFFFFF;
-		
+	    background-color: #FFF;
+		background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA, #F8F8F8);
 	    -moz-box-shadow: .2em .2em .3em #333;
 	    -webkit-box-shadow: .2em .2em .3em #333;
 	    box-shadow: .2em .2em .3em #333;

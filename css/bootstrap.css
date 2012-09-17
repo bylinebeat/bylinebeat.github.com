@@ -3541,9 +3541,9 @@ color: #202020; }
 #bbShare { float:left; padding-left: 8%; }
 #bbRead { float: right; padding-right: 8%; }
 #bbFeed { padding-top: 55px;}
-div.bbAction { background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA, #F8F8F8); border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
-#bbHeadline { background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA, #F8F8F8); padding-bottom: 3px; border-bottom: 1px solid #AAA; }
-#summary { padding: 8px; background-image: -webkit-linear-gradient(#EAEAEA, #F8F8F8, ##EAEAEA);}
+div.bbAction { background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA); border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
+#bbHeadline { background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA); padding-bottom: 3px; border-bottom: 1px solid #AAA; }
+#summary { padding: 8px; background-image: -webkit-linear-gradient(#EAEAEA, #F8F8F8);}
 #bbCards{
 	display: inline-block;
 	    width: 98%;

@@ -2,6 +2,8 @@
 layout: post
 title: Sample Post
 category: more
+summary: when an unknown printer took a galley of type and scrambled it to make a type specimen book
+
 ---
 
 <div class="row">

@@ -2,6 +2,7 @@
 layout: layout
 title: Hello ello ello ello 
 category: king
+summary: when an unknown printer took a galley of type and scrambled it to make a type specimen book
 ---
 
 

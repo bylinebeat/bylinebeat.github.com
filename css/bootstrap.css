@@ -3542,8 +3542,8 @@ color: #202020; }
 #bbRead { float: right; padding-right: 8%; }
 #bbFeed { padding-top: 55px;}
 div.bbAction { border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
-#bbHeadline { padding-bottom: 3px; border-bottom: 1px solid #AAA; }
-#summary { padding: 8px;}
+#bbHeadline { background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA); padding-bottom: 3px; border-bottom: 1px solid #AAA; }
+#summary { padding: 8px; background-image: -webkit-linear-gradient(#EAEAEA, #F8F8F8);}
 #bbCards{
 	display: inline-block;
 	    width: 98%;
@@ -3557,11 +3557,11 @@ div.bbAction { border-top: 1px solid #AAA; margin-bottom: 3px; width: 100%; }
 	    text-align: center;
 	    font-weight: normal;
 	    background-color: #fff;
-		background-image: -webkit-linear-gradient(#F8F8F8, #EAEAEA);
+		
 	    -moz-box-shadow: .2em .2em .3em #333;
 	    -webkit-box-shadow: .2em .2em .3em #333;
 	    box-shadow: .2em .2em .3em #333;
 }
-img.titleimg { width:100%; height: 145px; 
+img.titleimg { width:100%; height: 145px; background-color: white;
 -webkit-border-right-image: -webkit-radial-gradient(white,black 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch;
 -webkit-border-left-image: -webkit-radial-gradient(black,white 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch; }

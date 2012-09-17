@@ -3551,8 +3551,8 @@ div.bbAction { width: 45%; }
 	    -moz-border-radius: .6em;
 	    -webkit-border-radius: .6em;
 	    -khtml-border-radius: .6em;
-	    padding: .25em;
-	    margin: 10 .5em .5em 0;
+	    padding: 1em .25em .25em .25em;
+	    margin: .5em .5em .5em 0;
 	    text-align: center;
 	    font-weight: normal;
 	    background-color: #fff;

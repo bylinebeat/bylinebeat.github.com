@@ -3524,6 +3524,12 @@ div.bbAction { color: black; text-decoration: none; text-align: center; font-wei
 	    -webkit-box-shadow: .2em .2em .3em #333;
 	    box-shadow: .2em .2em .3em #333;
 }
-img.titleimg { width:100%; height: 145px; background-color: white;
+img.titleimg { -webkit-border-top-left-radius: .4em;
+-webkit-border-top-right-radius: .4em;
+-moz-border-radius-topleft: .4em;
+-moz-border-radius-topright: .4em;
+border-top-left-radius: .4em;
+border-top-right-radius: .4em;
+	width:100%; height: 145px; background-color: white;
 -webkit-border-right-image: -webkit-radial-gradient(white,black 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch;
 -webkit-border-left-image: -webkit-radial-gradient(black,white 50%,rgba(255,255,255,0)) 0 0 5px 5px stretch stretch; }

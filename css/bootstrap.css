@@ -2585,7 +2585,7 @@ button.btn.small, input[type="submit"].btn.small {
   color: rgba(255, 255, 255, 0.75);
   background: #666;
   background: rgba(255, 255, 255, 0.3);
-  border: 1px solid #111;
+  border: 1px solid #F8F8F8;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.15);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.15);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0px rgba(255, 255, 255, 0.15);
@@ -3502,8 +3502,8 @@ a.thumbnail:hover {
 a {text-decoration: none;}
 #bbFeed { padding-top: 55px;}
 div.bbAction { border-top: 1px inset #AAA; color: black; text-decoration: none; text-align: center; font-weight: 800; margin-bottom: 3px; width: 100%; }
-#bbHeadline {  padding-bottom: 1px; font-weight: 600;}
-#summary { border-bottom: 1px inset #AAA;  font-weight: lighter; }
+#bbHeadline {border-bottom: 1px inset #AAA;  padding-bottom: 1px; font-weight: 600;}
+#summary { color:  #FFF;   font-weight: lighter; }
 #bbCards{
 	display: inline-block;
 	    width: 98%;

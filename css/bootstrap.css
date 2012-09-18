@@ -3503,7 +3503,7 @@ a.thumbnail:hover {
 }
 a {text-decoration: none;}
 #bbFeed { padding-top: 55px;}
-div.bbAction { border-top: 1px solid #AAA; color: black; text-decoration: none; text-align: center; font-weight: 800; margin-bottom: 3px; width: 100%; }
+div.bbAction { border-top: 1px solid #AAA; color: black; text-decoration: none; text-align: center; font-weight: 600; margin-bottom: 3px; width: 100%; }
 #bbHeadline {  padding-bottom: 1px; font-weight: 600; border-bottom: 1px solid #AAA; font-size: 20px;}
 #summary {  font-weight: lighter; }
 #bbCards{

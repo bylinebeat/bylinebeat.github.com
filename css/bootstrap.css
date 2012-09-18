@@ -110,7 +110,7 @@ body {
   font-size: 13px;
   line-height: 18px;
   color: #333333;
-  background-color: #ffffff;
+  background-color: #F5F5F5;
 }
 a.BBbar {
   color: black;
@@ -263,7 +263,6 @@ a:hover {
   width: 99.99999998999999%;
 }
 .container {
-	background: #F5F5F5;
   width: 940px;
   margin-left: auto;
   margin-right: auto;
@@ -3514,6 +3513,7 @@ div.bbAction { color: black; text-decoration: none; text-align: center; font-wei
 	    -moz-border-radius: .4em;
 	    -webkit-border-radius: .4em;
 	    -khtml-border-radius: .4em;
+	    padding: .25em .25em .25em .25em;
 	    margin: .5em .5em .5em 0;
 	    text-align: center;
 	    font-weight: normal;

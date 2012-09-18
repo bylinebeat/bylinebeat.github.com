@@ -11,9 +11,9 @@ title: "bylinebeat | newyork -- local news commentary events & more -- @bylinebe
 			 {% if post.titleimg %}
 			 <img class="titleimg" src="{{ post.titleimg }}" alt="{{ post.title }}" />
 			   <p><small><em>Photo: {{ post.credit }}</em></small></p>
-			    <div id="bbHeadline"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
+			    <div id="bbHeadline"><a href="{{ post.url }}">{{ post.title }}</a></</div>
 				{% else %}
-				 <div id="bbHeadline"><h3><a href="{{ post.url }}">{{ post.title }}</a></h3></div>
+				 <div id="bbHeadline"><a href="{{ post.url }}">{{ post.title }}</a></div>
 			 {% endif %}
 			
 			 

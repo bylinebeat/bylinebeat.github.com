@@ -5,6 +5,7 @@
 
 body {
 	background-color: #F8F8F8;
+	background-image:  -webkit-linear-gradient(#F8F8F8, #EAEAEA, #F8F8F8);
   margin-top: 15px;
   font-size: 1.5em;
   line-height:1.3em;

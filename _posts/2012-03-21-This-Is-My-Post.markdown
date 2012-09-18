@@ -2,7 +2,8 @@
 layout: post
 title: Sample Post
 category: more
-summary: when an unknown printer took a galley of type and scrambled it to make a type specimen book
+titleimg: /img/ello.png
+summary: asfkl;f dsf;lkjds sadfjkhlsd; f; saddklfjh sdgdsakjl;gdas; book
 
 ---
 

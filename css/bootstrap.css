@@ -3509,7 +3509,6 @@ div.bbAction { color: black; text-decoration: none; text-align: center; font-wei
 #bbCards{
 	display: inline-block;
 	    width: 98%;
-	    border: 1px solid #666;
 	    border-radius: .4em;
 	    -moz-border-radius: .4em;
 	    -webkit-border-radius: .4em;

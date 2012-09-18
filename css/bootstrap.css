@@ -2578,7 +2578,7 @@ button.btn.small, input[type="submit"].btn.small {
 .navbar-search .search-query {
   padding: 4px 9px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: normal;
   line-height: 1;
   color: #000000;
@@ -2596,21 +2596,21 @@ button.btn.small, input[type="submit"].btn.small {
   transition: none;
 }
 .navbar-search .search-query :-moz-placeholder {
-  color: #eeeeee;
+  color: #000000;
 }
 .navbar-search .search-query::-webkit-input-placeholder {
-  color: #eeeeee;
+  color: #000000;
 }
 .navbar-search .search-query:hover {
   color: #000000;
-  background-color: #999999;
+  background-color: #F8F8F8;
   background-color: rgba(255, 255, 255, 0.5);
 }
 .navbar-search .search-query:focus, .navbar-search .search-query.focused {
   padding: 5px 10px;
-  color: #F8F8F8;
+  color: #000000;
   text-shadow: 0 1px 0 #ffffff;
-  background-color: #ffffff;
+  background-color: #f8f8f8;
   border: 0;
   -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.15);

@@ -33,12 +33,12 @@ a:link {
 
 a:visited {
   font-color:#2B2E2E;
-  text-decoration:underline;
+  text-decoration:none;
 }
 
 a:hover {
   font-color:#2B2E2E;
-  text-decoration:underline;
+  text-decoration:none;
 }
 
 h1 {
